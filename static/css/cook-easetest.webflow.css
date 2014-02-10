@@ -193,8 +193,7 @@ p {
   }
   .camera-picture-div-block {
     width: 20%;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    margin-top: -12px;
     float: right;
     text-align: center;
   }
