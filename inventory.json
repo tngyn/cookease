@@ -42,7 +42,7 @@
     },
 
     {
-      "name": "Southern Potato Salad"
+      "name": "Southern Potato Salad",
       "image": "images/potato_salad.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": ["potato", "eggs", "celery", "sweet relish", "garlic",
@@ -55,7 +55,7 @@
     },
 
     {
-      "name": "Salt and Pepper Skillet Fries"
+      "name": "Salt and Pepper Skillet Fries",
       "image": "images/fries.jpg",
       "alt": "Salt and Pepper Skillet Fries image",
       "ingredients": ["olive oil", "butter", "potato", "sea salt",
@@ -67,7 +67,7 @@
     },
 
     {
-      "name": "Bacon and Tomato Cups"
+      "name": "Bacon and Tomato Cups",
       "image": "images/bacon_tomato_cups.jpg",
       "alt": "Bacon and Tomato Cups image",
       "ingredients": ["bacon", "tomato", "onion", "swiss cheese", "mayonnaise",
@@ -80,7 +80,7 @@
     },
 
     {
-      "name": "Red Velvet Cupcakes"
+      "name": "Red Velvet Cupcakes",
       "image": "images/cupcake.jpg",
       "alt": "Red Velvet Cupcakes image",
       "ingredients": ["butter", "white sugar", "eggs", "buttermilk", 
@@ -120,7 +120,7 @@
     },
 
     {
-      "name": "Cheesecake Pancakes"
+      "name": "Cheesecake Pancakes",
       "image": "images/pancakes.jpg",
       "alt": "Cheesecake Pancakes image",
       "ingredients": ["cream cheese", "bisquick", "graham crackers", "sugar",
