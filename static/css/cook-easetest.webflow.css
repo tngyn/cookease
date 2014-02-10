@@ -313,4 +313,37 @@ p {
   .about-page-for-login-link {
     margin-left: 26px;
   }
+  .slider-headings {
+    position: relative;
+    z-index: 2;
+    float: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+    text-align: center;
+  }
+  .slide-box {
+    height: auto;
+    background-color: transparent;
+  }
+  .slider-image-link-box {
+    position: relative;
+    z-index: 0;
+    width: 330px;
+    height: 300px;
+    margin-top: -30px;
+    margin-left: 0px;
+    float: none;
+    opacity: 1;
+  }
+  .mask-box {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: auto;
+  }
+  .slider-ingredients-heading {
+    text-align: center;
+  }
+  .list-of-ingredients-slider {
+    padding-bottom: 20px;
+  }
 }
