@@ -4,15 +4,11 @@
       "name": "BBQ Steak",
       "image": "images/steak.jpg",
       "alt": "BBQ Steak image",
-      "ingredients": ["onion", "garlic", "olive oil", "vinegar", "soy sauce",
-        "rosemary", "mustard", "salt", "black pepper", "tri-tip steak"],
-      "tags": ["onion", "garlic", "olive oil", "vinegar", "soy sauce",
-        "rosemary", "mustard", "salt", "black pepper", "tri-tip steak", 
-        "steak", "BBQ", "barbeque", "barbecue"],
+      "ingredients": ["onion", "garlic", "olive oil", "vinegar", "soy sauce", "rosemary", "mustard", "salt", "black pepper", "tri-tip steak"],
+      "tags": ["onion", "garlic", "olive oil", "vinegar", "soy sauce", "rosemary", "mustard", "salt", "black pepper", "tri-tip steak", "steak", "BBQ", "barbeque", "barbecue"],
       "category": ["meats", "dinner"],
       "time": 210
     },
-
     {
       "name": "Herbed Chicken Nuggets",
       "image": "images/chicken_nuggets.jpg",
@@ -26,7 +22,6 @@
       "category": ["meats", "lunch", "snacks/appetizers"],
       "time": 45
     },
-
     {
       "name": "Harvest Salad",
       "image": "images/salad.jpg",
@@ -40,7 +35,6 @@
       "category": ["vegetables", "lunch"],
       "time": 15
     },
-
     {
       "name": "Southern Potato Salad",
       "image": "images/potato_salad.jpg",
@@ -53,7 +47,6 @@
       "category": ["snacks/appetizers", "vegetables", "lunch"],
       "time": 120
     },
-
     {
       "name": "Salt and Pepper Skillet Fries",
       "image": "images/fries.jpg",
@@ -65,7 +58,6 @@
       "category": ["snacks/appetizers"],
       "time": 30
     },
-
     {
       "name": "Bacon and Tomato Cups",
       "image": "images/bacon_tomato_cups.jpg",
@@ -78,7 +70,6 @@
       "category": ["snacks/appetizers"],
       "time": 42
     },
-
     {
       "name": "Red Velvet Cupcakes",
       "image": "images/cupcake.jpg",
@@ -93,7 +84,6 @@
       "category": ["desserts"],
       "time": 50
     },
-
     {
       "name": "Buttermilk Chocolate Chip Cookies",
       "image": "images/cookie.jpg",
@@ -106,7 +96,6 @@
       "category": ["desserts"],
       "time": 45
     },
-
     {
       "name": "Fluffy French Toast",
       "image": "images/french_toast.jpg",
@@ -118,7 +107,6 @@
       "category": ["breakfast"],
       "time": 30
     },
-
     {
       "name": "Cheesecake Pancakes",
       "image": "images/pancakes.jpg",
@@ -131,7 +119,6 @@
       "category": ["breakfast"],
       "time": 30
     },
-
     {
       "name": "Summer Chicken Burgers",
       "image": "images/burger.jpg",
@@ -146,7 +133,6 @@
       "category": ["lunch", "dinner", "meats"],
       "time": 30
     },
-
     {
       "name": "Sesame Noodles",
       "image": "images/noodles.jpg",
@@ -160,7 +146,6 @@
       "category": ["lunch", "dinner"],
       "time": 30
     },
-
     {
       "name": "Cheese Lasagna",
       "image": "images/lasagna.jpg",
@@ -175,7 +160,6 @@
       "category": ["dinner", "lunch"],
       "time": 65
     },
-
     {
       "name": "Asian Beef Skewers",
       "image": "images/beef_skewers",
@@ -187,6 +171,6 @@
         "beef"],
       "category": ["dinner", "lunch", "meats"],
       "time": 40
-    },
+    }
   ]
 }
