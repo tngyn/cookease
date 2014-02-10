@@ -1,0 +1,192 @@
+{
+  "recipes": [
+    {
+      "name": "BBQ Steak",
+      "image": "images/steak.jpg",
+      "alt": "BBQ Steak image",
+      "ingredients": ["onion", "garlic", "olive oil", "vinegar", "soy sauce",
+        "rosemary", "mustard", "salt", "black pepper", "tri-tip steak"],
+      "tags": ["onion", "garlic", "olive oil", "vinegar", "soy sauce",
+        "rosemary", "mustard", "salt", "black pepper", "tri-tip steak", 
+        "steak", "BBQ", "barbeque", "barbecue"],
+      "category": ["meats", "dinner"],
+      "time": 210
+    },
+
+    {
+      "name": "Herbed Chicken Nuggets",
+      "image": "images/chicken_nuggets.jpg",
+      "alt": "Herbed Chicken Nuggets image",
+      "ingredients": ["chicken breasts", "eggs", "water", "parsley", "thyme",
+        "red pepper flakes", "dried bread crumbs", "wheat germ", "basil",
+        "black pepper", "vegetable oil"],
+      "tags": ["chicken breasts", "eggs", "water", "parsley", "thyme",
+        "red pepper flakes", "dried bread crumbs", "wheat germ", "basil",
+        "black pepper", "vegetable oil", "chicken", "nuggets", "herb"],
+      "category": ["meats", "lunch", "snacks/appetizers"],
+      "time": 45
+    },
+
+    {
+      "name": "Harvest Salad",
+      "image": "images/salad.jpg",
+      "alt": "Harvest Salad image",
+      "ingredients": ["walnut", "spinach", "dried cranberries", "blue cheese",
+        "tomato", "avocado", "red onion", "raspberry jam", "red wine vinegar",
+        "walnut oil", "black pepper", "salt"],
+      "tags": ["walnut", "spinach", "dried cranberries", "blue cheese",
+        "tomato", "avocado", "red onion", "raspberry jam", "red wine vinegar",
+        "walnut oil", "black pepper", "salt", "harvest", "salad"],
+      "category": ["vegetables", "lunch"],
+      "time": 15
+    },
+
+    {
+      "name": "Southern Potato Salad"
+      "image": "images/potato_salad.jpg",
+      "alt": "Southern Potato Salad image",
+      "ingredients": ["potato", "eggs", "celery", "sweet relish", "garlic",
+        "mustard", "mayonnaise", "salt", "black pepper"],
+      "tags": ["potato", "eggs", "celery", "sweet relish", "garlic",
+        "mustard", "mayonnaise", "salt", "black pepper", "southern", "potato",
+        "salad"],
+      "category": ["snacks/appetizers", "vegetables", "lunch"],
+      "time": 120
+    },
+
+    {
+      "name": "Salt and Pepper Skillet Fries"
+      "image": "images/fries.jpg",
+      "alt": "Salt and Pepper Skillet Fries image",
+      "ingredients": ["olive oil", "butter", "potato", "sea salt",
+        "black pepper"],
+      "tags": ["olive oil", "butter", "potato", "sea salt",
+        "black pepper", "salt", "fries", "skillet"],
+      "category": ["snacks/appetizers"],
+      "time": 30
+    },
+
+    {
+      "name": "Bacon and Tomato Cups"
+      "image": "images/bacon_tomato_cups.jpg",
+      "alt": "Bacon and Tomato Cups image",
+      "ingredients": ["bacon", "tomato", "onion", "swiss cheese", "mayonnaise",
+        "basil", "buttermilk biscuit dough"],
+      "tags": ["bacon", "tomato", "onion", "swiss cheese", "mayonnaise",
+        "basil", "buttermilk biscuit dough", "biscuit", "dough", "cups",
+        "cheese"],
+      "category": ["snacks/appetizers"],
+      "time": 42
+    },
+
+    {
+      "name": "Red Velvet Cupcakes"
+      "image": "images/cupcake.jpg",
+      "alt": "Red Velvet Cupcakes image",
+      "ingredients": ["butter", "white sugar", "eggs", "buttermilk", 
+        "red food coloring", "vanilla extract", "baking soda", "white vinegar",
+        "all-purpose flour", "unsweetened cocoa powder", "salt"],
+      "tags": ["butter", "white sugar", "eggs", "buttermilk", 
+        "red food coloring", "vanilla extract", "baking soda", "white vinegar",
+        "all-purpose flour", "unsweetened cocoa powder", "salt", "cupcake",
+        "red velvet"],
+      "category": ["desserts"],
+      "time": 50
+    },
+
+    {
+      "name": "Buttermilk Chocolate Chip Cookies",
+      "image": "images/cookie.jpg",
+      "alt": "Buttermilk Chocolate Chip Cookies image",
+      "ingredients": ["butter", "brown sugar", "eggs", "buttermilk baking mix",
+        "walnuts", "semisweet chocolate chips"],
+      "tags": ["butter", "brown sugar", "eggs", "buttermilk baking mix",
+        "walnuts", "semisweet chocolate chips", "cookies", "chocolate", 
+        "baking", "buttermilk"],
+      "category": ["desserts"],
+      "time": 45
+    },
+
+    {
+      "name": "Fluffy French Toast",
+      "image": "images/french_toast.jpg",
+      "alt": "Fluffy French Toast image",
+      "ingredients": ["all-purpose flour", "milk", "salt", "eggs", "cinnamon",
+        "vanilla extract", "white sugar", "bread"],
+      "tags": ["all-purpose flour", "milk", "salt", "eggs", "cinnamon",
+        "vanilla extract", "white sugar", "bread", "toast", "french toast"],
+      "category": ["breakfast"],
+      "time": 30
+    },
+
+    {
+      "name": "Cheesecake Pancakes"
+      "image": "images/pancakes.jpg",
+      "alt": "Cheesecake Pancakes image",
+      "ingredients": ["cream cheese", "bisquick", "graham crackers", "sugar",
+        "milk", "eggs", "strawberries", "strawberry syrup"],
+      "tags": ["cream cheese", "bisquick", "graham crackers", "sugar",
+        "milk", "eggs", "strawberries", "strawberry syrup", "pancakes",
+        "cheesecake"],
+      "category": ["breakfast"],
+      "time": 30
+    },
+
+    {
+      "name": "Summer Chicken Burgers",
+      "image": "images/burger.jpg",
+      "alt": "Summer Chicken Burgers image",
+      "ingredients": ["avocado", "lemon juice", "butter", "onions", 
+        "chicken breasts", "salt", "black pepper", "hamburger buns",
+        "mayonnaise", "provolone cheese"],
+      "tags": ["avocado", "lemon juice", "butter", "onions", 
+        "chicken breasts", "salt", "black pepper", "hamburger buns",
+        "mayonnaise", "provolone cheese", "cheese", "summer", "chicken",
+        "burgers", "hamburgers"],
+      "category": ["lunch", "dinner", "meats"],
+      "time": 30
+    },
+
+    {
+      "name": "Sesame Noodles",
+      "image": "images/noodles.jpg",
+      "alt": "Sesame Noodles image",
+      "ingredients": ["linguine pasta", "garlic", "sugar", "safflower oil",
+        "rice vinegar", "soy sauce", "sesame oil", "chili sauce",
+        "green onions", "sesame seeds"],
+      "tags": ["linguine pasta", "garlic", "sugar", "safflower oil",
+        "rice vinegar", "soy sauce", "sesame oil", "chili sauce",
+        "green onions", "sesame seeds", "noodles", "sesame"],
+      "category": ["lunch", "dinner"],
+      "time": 30
+    },
+
+    {
+      "name": "Cheese Lasagna",
+      "image": "images/lasagna.jpg",
+      "alt": "Cheese Lasagna image",
+      "ingredients": ["lasagna noodles", "ricotta cheese", "parmesan cheese",
+        "eggs", "salt", "black pepper", "olive oil", "garlic",
+        "spaghetti sauce", "Italian seasoning", "mozzarella cheese"],
+      "tags": ["lasagna noodles", "ricotta cheese", "parmesan cheese",
+        "eggs", "salt", "black pepper", "olive oil", "garlic",
+        "spaghetti sauce", "Italian seasoning", "mozzarella cheese", "lasagna",
+        "cheese"],
+      "category": ["dinner", "lunch"],
+      "time": 65
+    },
+
+    {
+      "name": "Asian Beef Skewers",
+      "image": "images/beef_skewers",
+      "alt": "Asian Beef Skewers",
+      "ingredients": ["hoisin sauce", "sherry", "soy sauce", "barbeque sauce",
+        "green onions", "garlic", "ginger", "flank steak", "skewers"],
+      "tags": ["hoisin sauce", "sherry", "soy sauce", "barbeque sauce",
+        "green onions", "garlic", "ginger", "flank steak", "skewers", "asian",
+        "beef"],
+      "category": ["dinner", "lunch", "meats"],
+      "time": 40
+    },
+  ]
+}
