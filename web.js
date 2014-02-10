@@ -20,10 +20,20 @@ var PORT = 3000;
 // that makes nontrivial applications easier to build
 var express = require('express');
 
+////////////
+var handlebars = require('express3-handlebars')
+////////////
+
 // Create the server instance
 var app = express();
 
 // Print logs to the console and compress pages we send
+
+///////////
+app.engine('handlebars', handlebars());
+app.set('view engine', 'handlebars');
+////////////
+
 app.use(express.logger());
 app.use(express.compress());
 
