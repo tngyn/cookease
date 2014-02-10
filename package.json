@@ -1,0 +1,23 @@
+{
+  "name": "Cook-Ease",
+  "version": "0.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tngyn/Cook-Ease.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tngyn/Cook-Ease/issues"
+  },
+  "homepage": "https://github.com/tngyn/Cook-Ease",
+  "dependencies": {
+    "logfmt": "~0.20.0",
+    "express": "~3.4.8"
+  }
+}
