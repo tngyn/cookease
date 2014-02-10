@@ -317,7 +317,7 @@ p {
     position: relative;
     z-index: 2;
     float: none;
-    background-color: rgba(176, 176, 176, 0.36);
+    background-color: rgba(184, 178, 178, 0.6);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px;
     opacity: 1;
     text-align: center;
@@ -347,4 +347,6 @@ p {
   .list-of-ingredients-slider {
     padding-bottom: 20px;
   }
+  .slider-nav-bg {
+  background-color: rgba(184, 178, 178, 0.6);
 }
