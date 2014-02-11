@@ -18,7 +18,7 @@
 <body>
   <div class="w-nav nav-bar-block" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
     <div class="w-container navbar-container">
-      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navbar-on-link" href="inventory.html">Inventory</a><a class="w-nav-link" href="meal.html">Meal Categories</a><a class="w-nav-link" href="account.html">Account</a><a class="w-nav-link" href="log-out.html">Log Out</a>
+      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navbar-on-link" href="inventory">Inventory</a><a class="w-nav-link" href="meal.html">Meal Categories</a><a class="w-nav-link" href="account.html">Account</a><a class="w-nav-link" href="log-out.html">Log Out</a>
       </nav>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -31,11 +31,11 @@
   <div class="w-container navbar-empty-space"></div>
   <div class="w-container search-item-container">
     <div class="w-form">
-      <form class="w-clearfix form-for-search-box" name="wf-form-search" data-name="Search">
+      <form class="w-clearfix form-for-search-box" name="wf-form-search" data-name="Search" method="get" action="/inventory_added">
         <a class="w-inline-block camera-picture-div-block" href="camera-placeholder.html">
           <img src="images/icon_30126.png" width="60" alt="52f1a91de7f25e5f180000fe_icon_30126.png">
         </a>
-        <input class="w-input search-item-box" type="text" placeholder="Search for item" name="add" data-name="Add"></input>
+        <input class="w-input search-item-box" type="text" placeholder="Search for item" name="formsearch"></input>
       </form>
       <div class="w-form-done">
         <p>Sorry! Search functionality not working yet!</p>
@@ -43,6 +43,7 @@
       <div class="w-form-fail failed-search-result">
         <p>Unable to find item.</p>
       </div>
+    </div>
     </div>
   </div>
   <div class="w-container">
@@ -61,7 +62,15 @@
       </li>
     </ol>
   </div>
+  {{#each ingredients}}
+  <div>
+    <p>{{name}}</p>
+    <hr>
+  </div>
+  {{/each}}
+  
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
+
 </body>
 </html>
