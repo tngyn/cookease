@@ -1,5 +1,5 @@
-data = require('../recipesdata.json');
+var recipeData = require('../recipesdata.json');
 
 exports.view = function(req, res) {
-	res.render('meats', data);
+	res.render('meats', recipeData);
 };
