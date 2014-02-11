@@ -4,7 +4,7 @@
 <html data-wf-site="52ef5fc4ef830eb46b00022c">
 <head>
   <meta charset="utf-8">
-  <title>cook-easeTest - Meats</title>
+  <title>Cook Ease - Meats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -37,11 +37,11 @@
     <div class="w-slider" data-animation="slide" data-duration="500" data-infinite="1">
       <div class="w-slider-mask mask-box">
         
-
+        {{#each recipes}}
         <div class="w-slide slide-box">
-          <h3 class="slider-headings">Steak</h3>
+          <h3 class="slider-headings">{{name}}</h3>
           <a class="w-inline-block slider-image-link-box" href="recipe1.html">
-            <img src="images/steak.jpg" height="300" alt="52f33fc0ba5496e141000941_steak.png">
+            <img src="{{image}}" height="300">
           </a>
           <div>
             <ul>
@@ -83,102 +83,7 @@
             </li>
           </ul>
         </div>
-
-        <div class="w-slide slide-box">
-          <h3 class="slider-headings">Steak</h3>
-          <a class="w-inline-block slider-image-link-box" href="recipe1.html">
-            <img src="images/steak.jpg" height="300" alt="52f33fc0ba5496e141000941_steak.png">
-          </a>
-          <div>
-            <ul>
-              <li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;</p>
-              </li>
-              <li>
-                <div>Time</div>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="slider-ingredients-heading">Ingredients</h4>
-          </div>
-          <ul class="list-of-ingredients-slider">
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-          </ul>
-        </div>
-
-
-        <div class="w-slide slide-box">
-          <h3 class="slider-headings">Steak</h3>
-          <a class="w-inline-block slider-image-link-box" href="recipe1.html">
-            <img src="images/steak.jpg" height="300" alt="52f33fc0ba5496e141000941_steak.png">
-          </a>
-          <div>
-            <ul>
-              <li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;</p>
-              </li>
-              <li>
-                <div>Time</div>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="slider-ingredients-heading">Ingredients</h4>
-          </div>
-          <ul class="list-of-ingredients-slider">
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-            <li>
-              <div>This is some text inside of a div block.</div>
-            </li>
-          </ul>
-        </div>
-
-
-
+        {{/each}}
 
       </div>
       <div class="w-slider-arrow-left">
