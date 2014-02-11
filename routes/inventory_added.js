@@ -1,7 +1,7 @@
-var data = require('../inventorydata.json');
+var inventoryData = require('../inventorydata.json');
 
 exports.addIngredient = function(req, res){
-	res.render('inventory_added', data);
+	res.render('inventory_added', inventoryData);
 
 	var newName = req.query.formsearch;
 	var newIngredient = {
@@ -9,5 +9,5 @@ exports.addIngredient = function(req, res){
 	};
 
 	console.log(newIngredient);
-	data["ingredients"].push(newIngredient);
+	inventoryData["ingredients"].push(newIngredient);
 };
