@@ -276,7 +276,7 @@ p {
   }
   .bottom-button {
     margin-bottom: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
   .account-header {
     font-size: 24px;
@@ -290,10 +290,6 @@ p {
     margin-bottom: 0px;
     margin-left: 25px;
     padding-left: 0px;
-  }
-
-  .favorite-star img {
-    width: 35px;
   }
   .signout-text {
     font-size: 28px;
@@ -370,8 +366,13 @@ p {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border: 3px solid #f30;
+    border: 2px solid #f80;
     border-radius: 5px;
   }
-
+  .recipe-step {
+    padding-bottom: 26px;
+  }
+  .recipe-ingredients {
+    padding-bottom: 25px;
+  }
 }
