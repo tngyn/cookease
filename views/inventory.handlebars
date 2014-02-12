@@ -65,7 +65,7 @@
       </li>
     </ol>
   </div> -->
-  
+    {{#each ingredients}}
     <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -74,7 +74,13 @@
           </h4>
         </div>
         <div id="collapseOne" class="panel-collapse collapse">
-          <div class="panel-body">1</div>
+          <div class="panel-body">
+            {{#each grains}}
+            <div>
+              {{grain}}
+            </div>
+            {{/each}}
+          </div>
         </div>
       </div>
       <div class="panel panel-default">
@@ -84,7 +90,13 @@
           </h4>
         </div>
         <div id="collapseTwo" class="panel-collapse collapse">
-          <div class="panel-body">2</div>
+          <div class="panel-body">
+            {{#each produces}}
+            <div>
+              {{produce}}
+            </div>
+            {{/each}}
+          </div>
         </div>
       </div>
       <div class="panel panel-default">
@@ -94,7 +106,13 @@
           </h4>
         </div>
         <div id="collapseThree" class="panel-collapse collapse">
-          <div class="panel-body">3</div>
+          <div class="panel-body">
+            {{#each meats}}
+            <div>
+              {{meat}}
+            </div>
+            {{/each}}
+          </div>
         </div>
       </div>
       <div class="panel panel-default">
@@ -104,7 +122,13 @@
           </h4>
         </div>
         <div id="collapseFour" class="panel-collapse collapse">
-          <div class="panel-body">3</div>
+          <div class="panel-body">
+            {{#each dairies}}
+            <div>
+              {{dairy}}
+            </div>
+            {{/each}}
+          </div>
         </div>
       </div>
       <div class="panel panel-default">
@@ -114,10 +138,16 @@
           </h4>
         </div>
         <div id="collapseFive" class="panel-collapse collapse">
-          <div class="panel-body">3</div>
+          <div class="panel-body">
+            {{#each condiments}}
+            <div>
+              {{condiment}}
+            </div>
+            {{/each}}
+          </div>
         </div>
       </div>
-      <div class="panel panel-default">
+      <!-- <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
             <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Sweets<span>
@@ -126,9 +156,9 @@
         <div id="collapseSix" class="panel-collapse collapse">
           <div class="panel-body">3</div>
         </div>
-      </div>
+      </div> -->
     </div>
-
+    {{/each}}
 <!--     <div class="bs-example">
     <input type="button" class="btn1" value="Toggle Button">
     <div id="toggle1"><p>This is a simple example of expanding and collapsing individual element via JavaScript. Click on the <b>Toggle Button</b> button to see the effect.</p></div>
@@ -141,13 +171,7 @@
     <input type="button" class="btn3 btn-primary" value="Toggle Button">
     <div id="toggle3"><p>This is a simple example of expanding and collapsing individual element via JavaScript. Click on the <b>Toggle Button</b> button to see the effect.</p></div>
  -->
-
-  {{#each ingredients}}
-  <div>
-    <p>{{ingredient}}</p>
-    <hr>
-  </div>
-  {{/each}}
+  
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
