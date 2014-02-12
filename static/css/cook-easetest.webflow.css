@@ -70,7 +70,7 @@ p {
   h3 {
     position: static;
     display: block;
-    margin: 0px auto;
+    margin: 0px auto 0px 0px;
     padding-left: 0px;
     float: left;
     clear: none;
@@ -374,5 +374,11 @@ p {
   }
   .recipe-ingredients {
     padding-bottom: 25px;
+  }
+  .favorite-text {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
   }
 }
