@@ -1,0 +1,66 @@
+{
+  "desserts": [
+    {
+      "name": "Red Velvet Cupcakes",
+      "image": "images/cupcake.jpg",
+      "alt": "Red Velvet Cupcakes image",
+      "ingredients": [
+        {"ingredient": "butter"},
+        {"ingredient": "white sugar"},
+        {"ingredient": "eggs"},
+        {"ingredient": "buttermilk"}, 
+        {"ingredient": "red food coloring"},
+        {"ingredient": "vanilla extract"},
+        {"ingredient": "baking soda"},
+        {"ingredient": "white vinegar"},
+        {"ingredient": "all-purpose flour"},
+        {"ingredient": "unsweetened cocoa powder"},
+        {"ingredient": "salt"}
+      ],
+      "tags": [
+        {"tag": "butter"},
+        {"tag": "white sugar"},
+        {"tag": "eggs"},
+        {"tag": "buttermilk"}, 
+        {"tag": "red food coloring"},
+        {"tag": "vanilla extract"},
+        {"tag": "baking soda"},
+        {"tag": "white vinegar"},
+        {"tag": "all-purpose flour"},
+        {"tag": "unsweetened cocoa powder"},
+        {"tag": "salt"},
+        {"tag": "cupcake"},
+        {"tag": "red velvet"}
+      ],
+      "category": ["desserts"],
+      "time": 50
+    },
+    {
+      "name": "Buttermilk Chocolate Chip Cookies",
+      "image": "images/cookie.jpg",
+      "alt": "Buttermilk Chocolate Chip Cookies image",
+      "ingredients": [
+        {"ingredient": "butter"},
+        {"ingredient": "brown sugar"},
+        {"ingredient": "eggs"},
+        {"ingredient": "buttermilk baking mix"},
+        {"ingredient": "walnuts"},
+        {"ingredient": "semisweet chocolate chips"}
+      ],
+      "tags": [
+        {"tag": "butter"},
+        {"tag": "brown sugar"},
+        {"tag": "eggs"},
+        {"tag": "buttermilk baking mix"},
+        {"tag": "walnuts"},
+        {"tag": "semisweet chocolate chips"},
+        {"tag": "cookies"},
+        {"tag": "chocolate"}, 
+        {"tag": "baking"},
+        {"tag": "buttermilk"}
+      ],
+      "category": ["desserts"],
+      "time": 45
+    }
+  ]
+}

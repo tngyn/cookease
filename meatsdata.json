@@ -1,0 +1,141 @@
+{
+	"meats": [
+		{
+      "name": "BBQ Steak",
+      "image": "http://cdn.lifesambrosia.com/blog/wp-content/uploads/grilled-balsamic-and-rosemary-flat-iron-steak-1200x795.jpg",
+      "alt": "BBQ Steak image",
+      "ingredients": [
+        {"ingredient": "onion"},
+        {"ingredient": "garlic"},
+        {"ingredient": "olive oil"},
+        {"ingredient": "vinegar"},
+        {"ingredient": "soy sauce"},
+        {"ingredient": "rosemary"},
+        {"ingredient": "mustard"},
+        {"ingredient": "salt"},
+        {"ingredient": "black pepper"},
+        {"ingredient": "tri-tip steak"}
+      ],
+      "tags": [
+        {"tag": "onion"},
+        {"tag": "garlic"},
+        {"tag": "olive oil"},
+        {"tag": "vinegar"},
+        {"tag": "soy sauce"},
+        {"tag": "rosemary"},
+        {"tag": "mustard"},
+        {"tag": "salt"},
+        {"tag": "black pepper"},
+        {"tag": "tri-tip steak"},
+        {"tag": "steak"},
+        {"tag": "BBQ"},
+        {"tag": "barbeque"}
+      ],
+      "category": ["meats", "dinner"],
+      "time": 210
+    },
+    {
+      "name": "Herbed Chicken Nuggets",
+      "image": "images/chicken_nuggets.jpg",
+      "alt": "Herbed Chicken Nuggets image",
+      "ingredients": [
+        {"ingredient": "chicken breasts"},
+        {"ingredient": "eggs"},
+        {"ingredient": "water"},
+        {"ingredient": "parsley"},
+        {"ingredient": "thyme"},
+        {"ingredient": "red pepper flakes"},
+	      {"ingredient": "dried bread crumbs"},
+	      {"ingredient": "wheat germ"},
+        {"ingredient": "basil"},
+        {"ingredient": "black pepper"},
+        {"ingredient": "vegetable oil"}
+      ],
+      "tags": [
+        {"tag": "chicken breasts"},
+        {"tag": "eggs"},
+       	{"tag": "water"},
+        {"tag": "parsley"},
+        {"tag": "thyme"},
+    		{"tag": "red pepper flakes"},
+   			{"tag": "dried bread crumbs"},
+    		{"tag": "wheat germ"},
+    		{"tag": "basil"},
+    		{"tag": "black pepper"},
+    		{"tag": "vegetable oil"},
+    		{"tag": "chicken"},
+    		{"tag": "nuggets"},
+    		{"tag": "herb"}
+  		],
+    	"category": ["meats", "lunch", "snacks/appetizers"],
+    	"time": 45
+    },
+    {
+      "name": "Summer Chicken Burgers",
+      "image": "images/burger.jpg",
+      "alt": "Summer Chicken Burgers image",
+      "ingredients": [
+      	{"ingredient": "avocado"},
+      	{"ingredient": "lemon juice"},
+      	{"ingredient": "butter"},
+      	{"ingredient": "onions"}, 
+      	{"ingredient": "chicken breasts"},
+      	{"ingredient": "salt"},
+      	{"ingredient": "black pepper"},
+      	{"ingredient": "hamburger buns"},
+      	{"ingredient": "mayonnaise"},
+      	{"ingredient": "provolone cheese"}
+    	],
+    	"tags": [
+    		{"tag": "avocado"},
+    		{"tag": "lemon juice"},
+    		{"tag": "butter"},
+        {"tag": "onions"}, 
+    		{"tag": "chicken breasts"},
+    		{"tag": "salt"},
+        {"tag": "black pepper"},
+    		{"tag": "hamburger buns"},
+    		{"tag": "mayonnaise"},
+    		{"tag": "provolone cheese"},
+    		{"tag": "cheese"},
+        {"tag": "summer"},
+     		{"tag": "chicken"},
+    		{"tag": "burgers"},
+    		{"tag": "hamburgers"}
+   		],
+      "category": ["lunch", "dinner", "meats"],
+      "time": 30
+    },
+    {
+      "name": "Asian Beef Skewers",
+  		"image": "images/beef_skewers",
+  		"alt": "Asian Beef Skewers",
+  		"ingredients": [
+     		{"ingredient": "hoisin sauce"},
+      	{"ingredient": "sherry"},
+    		{"ingredient": "soy sauce"},
+    		{"ingredient": "barbeque sauce"},
+    		{"ingredient": "green onions"},
+    		{"ingredient": "garlic"},
+    		{"ingredient": "ginger"},
+    		{"ingredient": "flank steak"},
+    		{"ingredient": "skewers"}
+    	],
+      "tags": [
+      	{"tag": "hoisin sauce"},
+        {"tag": "sherry"},
+        {"tag": "soy sauce"},
+        {"tag": "barbeque sauce"},
+        {"tag": "green onions"},
+    		{"tag": "garlic"},
+    		{"tag": "ginger"},
+        {"tag": "flank steak"},
+    		{"tag": "skewers"},
+        {"tag": "asian"},
+        {"tag": "beef"}
+      ],
+      "category": ["dinner", "lunch", "meats"],
+      "time": 40
+    }
+	]
+}

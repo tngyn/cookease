@@ -15,6 +15,9 @@ var handlebars = require('express3-handlebars');
 var inventory_added = require('./routes/inventory_added');
 var inventory = require('./routes/inventory');
 var meats = require('./routes/meats');
+var vegetables = require('./routes/vegetables');
+var snacks = require('./routes/snacks');
+var desserts = require('./routes/desserts');
 ////////////
 
 // Create the server instance
@@ -53,6 +56,9 @@ if ('development' == app.get('env')) {
 app.get('/inventory_added', inventory_added.addIngredient);
 app.get('/inventory', inventory.view);
 app.get('/meats', meats.view);
+app.get('/vegetables', vegetables.view);
+app.get('/snacks', snacks.view);
+app.get('/desserts', desserts.view);
 
 ///////////////////////
 

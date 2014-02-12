@@ -1,0 +1,73 @@
+{
+  "vegetables": [
+    {
+      "name": "Harvest Salad",
+      "image": "images/salad.jpg",
+      "alt": "Harvest Salad image",
+      "ingredients": [
+        {"ingredient": "walnut"},
+        {"ingredient": "spinach"},
+        {"ingredient": "dried cranberries"},
+        {"ingredient": "blue cheese"},
+        {"ingredient": "tomato"},
+        {"ingredient": "avocado"},
+        {"ingredient": "red onion"},
+        {"ingredient": "raspberry jam"},
+        {"ingredient": "red wine vinegar"},
+        {"ingredient": "walnut oil"},
+        {"ingredient": "black pepper"},
+        {"ingredient": "salt"}
+      ],
+      "tags": [
+        {"tag": "walnut"},
+        {"tag": "spinach"},
+        {"tag": "dried cranberries"},
+        {"tag": "blue cheese"},
+        {"tag": "tomato"},
+        {"tag": "avocado"},
+        {"tag": "red onion"},
+        {"tag": "raspberry jam"},
+        {"tag": "red wine vinegar"},
+        {"tag": "walnut oil"},
+        {"tag": "black pepper"},
+        {"tag": "salt"},
+        {"tag": "harvest"},
+        {"tag": "salad"}
+      ],
+      "category": ["vegetables", "lunch"],
+      "time": 15
+    },
+    {
+      "name": "Southern Potato Salad",
+      "image": "images/potato_salad.jpg",
+      "alt": "Southern Potato Salad image",
+      "ingredients": [
+        {"ingredient": "potato"},
+        {"ingredient": "eggs"},
+        {"ingredient": "celery"},
+        {"ingredient": "sweet relish"},
+        {"ingredient": "garlic"},
+        {"ingredient": "mustard"},
+        {"ingredient": "mayonnaise"},
+        {"ingredient": "salt"},
+        {"ingredient": "black pepper"}
+      ],
+      "tags": [
+        {"tag": "potato"},
+        {"tag": "eggs"},
+        {"tag": "celery"},
+        {"tag": "sweet relish"},
+        {"tag": "garlic"},
+        {"tag": "mustard"},
+        {"tag": "mayonnaise"},
+        {"tag": "salt"},
+        {"tag": "black pepper"},
+        {"tag": "southern"},
+        {"tag": "potato"},
+        {"tag": "salad"}
+      ],
+      "category": ["snacks/appetizers", "vegetables", "lunch"],
+      "time": 120
+    }
+  ]
+}
