@@ -1,4 +1,14 @@
 {
 	"ingredients": [
+		{"ingredient": "onion"},
+        {"ingredient": "garlic"},
+        {"ingredient": "olive oil"},
+        {"ingredient": "vinegar"},
+        {"ingredient": "soy sauce"},
+        {"ingredient": "rosemary"},
+        {"ingredient": "mustard"},
+        {"ingredient": "salt"},
+        {"ingredient": "black pepper"},
+        {"ingredient": "tri-tip steak"}
 	]
 }
