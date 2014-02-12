@@ -291,6 +291,10 @@ p {
     margin-left: 25px;
     padding-left: 0px;
   }
+
+  .favorite-star img {
+    width: 30px;
+  }
   .signout-text {
     font-size: 28px;
     line-height: 35px;
@@ -369,4 +373,5 @@ p {
     border: 3px solid #f30;
     border-radius: 5px;
   }
+
 }
