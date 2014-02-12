@@ -70,11 +70,15 @@ p {
   h3 {
     position: static;
     display: block;
-    margin: 0px auto 0px 0px;
+    margin: 0px auto;
     padding-left: 0px;
     float: left;
     clear: none;
+    color: white;
     font-weight: 700;
+    text-align: left;
+  }
+  p {
     text-align: left;
   }
   .button {
@@ -168,6 +172,7 @@ p {
     position: static;
     display: block;
     width: 100%;
+    background-color: #f80;
   }
   .navbar-empty-space {
     position: static;
@@ -194,6 +199,8 @@ p {
   .camera-picture-div-block {
     width: 20%;
     margin-top: -12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     float: right;
     text-align: center;
   }
@@ -310,9 +317,6 @@ p {
     margin-bottom: 15px;
     float: none;
   }
-  .back-button-forgot-password {
-    margin-top: 20px;
-  }
   .about-page-for-login-link {
     margin-left: 26px;
   }
@@ -320,7 +324,7 @@ p {
     position: relative;
     z-index: 2;
     float: none;
-    background-color: rgba(184, 178, 178, 0.6);
+    background-color: rgba(176, 176, 176, 0.36);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px;
     opacity: 1;
     text-align: center;
@@ -337,6 +341,7 @@ p {
     margin-top: -30px;
     margin-left: 0px;
     float: none;
+    background-color: white;
     opacity: 1;
   }
   .mask-box {
@@ -351,5 +356,17 @@ p {
     padding-bottom: 20px;
   }
   .slider-nav-bg {
-  background-color: rgba(184, 178, 178, 0.6);
+    background-color: rgba(184, 178, 178, 0.6);
+  }
+  .recipe-title {
+    width: 200px;
+    font-size: 30px;
+  }
+  .recipe-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #f80;
+    border-radius: 5px;
+  }
 }
