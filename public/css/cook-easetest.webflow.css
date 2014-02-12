@@ -349,4 +349,9 @@ p {
   }
   .slider-nav-bg {
   background-color: rgba(184, 178, 178, 0.6);
-}
+  }
+  .camera-icon-placement {
+    margin-top: 10px;
+    width: 38px;
+    height: 38px;
+  }

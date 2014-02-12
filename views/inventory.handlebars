@@ -6,9 +6,13 @@
   <meta charset="utf-8">
   <title>Cook Ease - Inventory</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/inventory-dropdown.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/cook-easetest.webflow.css">
+  
   <script>
     if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
   </script>
@@ -33,7 +37,7 @@
     <div class="w-form">
       <form class="w-clearfix form-for-search-box" name="wf-form-search" data-name="Search" method="get" action="/inventory_added">
         <a class="w-inline-block camera-picture-div-block" href="camera-placeholder.html">
-          <img src="images/icon_30126.png" width="60" alt="52f1a91de7f25e5f180000fe_icon_30126.png">
+          <img src="images/icon_30126.png" class='camera-icon-placement'>
         </a>
         <input class="w-input search-item-box" type="text" placeholder="Search for item" name="formsearch"></input>
       </form>
@@ -44,11 +48,10 @@
         <p>Unable to find item.</p>
       </div>
     </div>
-    </div>
   </div>
-  <div class="w-container">
-    <ol class="w-list-unstyled">
-      <li class="list-item-block"><a class="button" href="inventory-category.html">Grains</a>
+  <!-- <div class="w-container">
+      <ol class="w-list-unstyled">
+      <li class="list-item-block"><a class="button">Grains</a>
       </li>
       <li class="list-item-block"><a class="button" href="#">Produce</a>
       </li>
@@ -61,14 +64,52 @@
       <li class="list-item-block"><a class="button" href="#">Sweets</a>
       </li>
     </ol>
-  </div>
+  </div> -->
+  
+
+
+<div class="w-container">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Grains</a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">1</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Produce</a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">2</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Meats</a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">3</div>
+        </div>
+      </div>
+    </div>
+</div>
+
   {{#each ingredients}}
   <div>
     <p>{{ingredient}}</p>
     <hr>
   </div>
   {{/each}}
-  
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
