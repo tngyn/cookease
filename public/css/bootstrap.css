@@ -2359,6 +2359,13 @@ input[type="button"].btn-block {
   position: relative;
   height: 0;
   overflow: hidden;
+  /*-webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;*/
+  -webkit-transition: height 0.35s ease 1s linear;
+  -moz-transition: height 0.35s ease 1s linear;
+  -o-transition: height 0.35s ease 1s linear;
+  -ms-transition: height 0.35s ease 1s linear;
+  transition: height 0.35s ease 1s linear;
   -webkit-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
