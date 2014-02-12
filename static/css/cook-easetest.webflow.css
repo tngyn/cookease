@@ -279,7 +279,10 @@ p {
     padding-left: 25px;
   }
   .favorite-star {
-    margin-bottom: -80px;
+    margin-top: -86px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    padding-left: 0px;
   }
   .signout-text {
     font-size: 28px;
