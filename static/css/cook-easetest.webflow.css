@@ -74,11 +74,7 @@ p {
     padding-left: 0px;
     float: left;
     clear: none;
-    color: white;
     font-weight: 700;
-    text-align: left;
-  }
-  p {
     text-align: left;
   }
   .button {
@@ -102,7 +98,7 @@ p {
     display: block;
     overflow-x: visible;
     overflow-y: visible;
-    width: 65%;
+    width: 50%;
     margin: 20px auto 30px;
     padding-top: 5%;
     border-radius: 12px;
@@ -172,7 +168,6 @@ p {
     position: static;
     display: block;
     width: 100%;
-    background-color: #f80;
   }
   .navbar-empty-space {
     position: static;
@@ -199,8 +194,6 @@ p {
   .camera-picture-div-block {
     width: 20%;
     margin-top: -12px;
-    padding-top: 0px;
-    padding-bottom: 0px;
     float: right;
     text-align: center;
   }
@@ -276,7 +269,7 @@ p {
   }
   .bottom-button {
     margin-bottom: 0px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
   }
   .account-header {
     font-size: 24px;
@@ -286,10 +279,7 @@ p {
     padding-left: 25px;
   }
   .favorite-star {
-    margin-top: -86px;
-    margin-bottom: 0px;
-    margin-left: 25px;
-    padding-left: 0px;
+    margin-bottom: -80px;
   }
   .signout-text {
     font-size: 28px;
@@ -317,6 +307,9 @@ p {
     margin-bottom: 15px;
     float: none;
   }
+  .back-button-forgot-password {
+    margin-top: 20px;
+  }
   .about-page-for-login-link {
     margin-left: 26px;
   }
@@ -324,7 +317,7 @@ p {
     position: relative;
     z-index: 2;
     float: none;
-    background-color: rgba(176, 176, 176, 0.36);
+    background-color: rgba(184, 178, 178, 0.6);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px;
     opacity: 1;
     text-align: center;
@@ -341,7 +334,6 @@ p {
     margin-top: -30px;
     margin-left: 0px;
     float: none;
-    background-color: white;
     opacity: 1;
   }
   .mask-box {
@@ -349,39 +341,6 @@ p {
     overflow-y: hidden;
     height: auto;
   }
-  .slider-ingredients-heading {
-    text-align: center;
-  }
-  .list-of-ingredients-slider {
-    padding-bottom: 20px;
-  }
-  .slider-nav-bg {
-    background-color: rgba(184, 178, 178, 0.6);
-  }
-  .recipe-title {
-    width: 200px;
-    font-size: 30px;
-  }
-  .recipe-image {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border: 2px solid #f80;
-    border-radius: 5px;
-  }
-  .recipe-step {
-    padding-bottom: 26px;
-  }
-  .recipe-ingredients {
-    padding-bottom: 25px;
-  }
-  .favorite-text {
-    width: auto;
-    height: auto;
-    font-size: 30px;
-    text-align: center;
-  }
-
   .slider-ingredients-heading {
     text-align: center;
   }
@@ -401,4 +360,3 @@ p {
     padding: 3px 0;
     border-bottom: 1px solid #ccc
   }
-}
