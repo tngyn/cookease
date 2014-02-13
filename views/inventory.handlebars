@@ -6,12 +6,17 @@
   <meta charset="utf-8">
   <title>Cook Ease - Inventory</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/typeahead-test.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/bootstrap-theme.css" rel="stylesheet">
+
   <link href="css/inventory-dropdown.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/cook-easetest.webflow.css">
+  
+  
   
   <script>
     if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
@@ -159,24 +164,14 @@
       </div> -->
     </div>
     {{/each}}
-<!--     <div class="bs-example">
-    <input type="button" class="btn1" value="Toggle Button">
-    <div id="toggle1"><p>This is a simple example of expanding and collapsing individual element via JavaScript. Click on the <b>Toggle Button</b> button to see the effect.</p></div>
 
-    <div class="bs-example">
-    <input type="button" class="btn2 btn-primary" value="Toggle Button">
-    <div id="toggle2"><p>This is a simple example of expanding and collapsing individual element via JavaScript. Click on the <b>Toggle Button</b> button to see the effect.</p></div>
-
-    <div class="bs-example">
-    <input type="button" class="btn3 btn-primary" value="Toggle Button">
-    <div id="toggle3"><p>This is a simple example of expanding and collapsing individual element via JavaScript. Click on the <b>Toggle Button</b> button to see the effect.</p></div>
- -->
-  
+    <input class="typeahead"></input>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
-  <!-- <script src="js/collapse.js"></script> -->
+  <script src="js/typeahead.bundle.js"></script>
+  <script src="js/typeahead-inventory.js"></script>
 
 </body>
 </html>
