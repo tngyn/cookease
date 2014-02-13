@@ -9,5 +9,6 @@ exports.addIngredient = function(req, res){
 	};
 
 	console.log(newIngredient);
+	console.log(inventoryData);
 	inventoryData["ingredients"].push(newIngredient);
 };
