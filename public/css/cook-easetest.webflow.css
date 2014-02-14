@@ -410,3 +410,12 @@ p {
     background-color: transparent;
     text-align: left;
   }
+.navbar-button {
+    background-color: #f80;
+  }
+  .navbar-button.w--open {
+    background-color: #f80;
+  }
+  .navbar-link {
+    background-color: #ffb066;
+  }
