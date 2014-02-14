@@ -108,6 +108,7 @@ p {
     border-radius: 12px;
     background-color: #f60;
     color: white;
+    outline: none;
   }
   .submit {
     display: block;
