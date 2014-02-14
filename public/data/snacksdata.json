@@ -2,7 +2,7 @@
   "snacks": [
     {
       "name": "Southern Potato Salad",
-      "image": "images/potato_salad.jpg",
+      "image": "http://salu-salo.com/wp-content/uploads/2013/11/Best-Homemade-Potato-Salad.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
         {"ingredient": "potato"},
@@ -34,7 +34,7 @@
     },
     {
       "name": "Salt and Pepper Skillet Fries",
-      "image": "images/fries.jpg",
+      "image": "http://bbqlikeitshot.com/wp-content/uploads/2014/02/beersoakedfries_2808-1024x682.jpg",
       "alt": "Salt and Pepper Skillet Fries image",
       "ingredients": [
         {"ingredient": "olive oil"},
@@ -58,7 +58,7 @@
     },
     {
       "name": "Bacon and Tomato Cups",
-      "image": "images/bacon_tomato_cups.jpg",
+      "image": "http://media-cache-ak0.pinimg.com/736x/9d/6e/b2/9d6eb25421d822ede5de013267f9dda0.jpg",
       "alt": "Bacon and Tomato Cups image",
       "ingredients": [
         {"ingredient": "bacon"},

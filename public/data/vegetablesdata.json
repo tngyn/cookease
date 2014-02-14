@@ -39,7 +39,7 @@
     },
     {
       "name": "Southern Potato Salad",
-      "image": "images/potato_salad.jpg",
+      "image": "http://salu-salo.com/wp-content/uploads/2013/11/Best-Homemade-Potato-Salad.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
         {"ingredient": "potato"},

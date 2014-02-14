@@ -72,7 +72,7 @@
     },
     {
       "name": "Summer Chicken Burgers",
-      "image": "images/burger.jpg",
+      "image": "http://farm5.staticflickr.com/4093/4761031229_5e16a96eee_o.jpg",
       "alt": "Summer Chicken Burgers image",
       "ingredients": [
       	{"ingredient": "avocado"},
@@ -108,7 +108,7 @@
     },
     {
       "name": "Asian Beef Skewers",
-  		"image": "images/beef_skewers",
+  		"image": "http://www.sippitysup.com/wp-content/uploads/2014/02/SteakFritesStick2-858x572.jpg",
   		"alt": "Asian Beef Skewers",
   		"ingredients": [
      		{"ingredient": "hoisin sauce"},

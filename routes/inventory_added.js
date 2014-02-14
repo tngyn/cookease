@@ -6,7 +6,7 @@ exports.addIngredient = function(req, res){
 
 	var ingredientTyped = req.query.formsearch;
 
-	// Checks ingredient typed is a grain in json file
+	// Checks if ingredient typed is a grain in json file
 	// if so, it can be added into inventory
 	var numOfGrains = ingredientsData.ingredients[0]['grains'].length;
 	for (var i = 0; i < numOfGrains; i++) {
@@ -19,11 +19,11 @@ exports.addIngredient = function(req, res){
 			console.log(inventoryData);
 			inventoryData.ingredients[0]['grains'].push(newIngredient);
 			console.log(inventoryData.ingredients[0]['grains']);
-			break;
+			return;
 		}
 	}
 
-	// Checks ingredient typed is a produce in json file
+	// Checks if ingredient typed is a produce in json file
 	// if so, it can be added into inventory
 	var numOfProduces = ingredientsData.ingredients[0]['produces'].length;
 	for (var i = 0; i < numOfProduces; i++) {
@@ -36,11 +36,11 @@ exports.addIngredient = function(req, res){
 			console.log(inventoryData);
 			inventoryData.ingredients[0]['produces'].push(newIngredient);
 			console.log(inventoryData.ingredients[0]['produces']);
-			break;
+			return;
 		}
 	}
 
-	// Checks ingredient typed is a meat in json file
+	// Checks if ingredient typed is a meat in json file
 	// if so, it can be added into inventory
 	var numOfMeats = ingredientsData.ingredients[0]['meats'].length;
 	for (var i = 0; i < numOfMeats; i++) {
@@ -53,11 +53,11 @@ exports.addIngredient = function(req, res){
 			console.log(inventoryData);
 			inventoryData.ingredients[0]['meats'].push(newIngredient);
 			console.log(inventoryData.ingredients[0]['meats']);
-			break;
+			return;
 		}
 	};
 	
-	// Checks ingredient typed is a dairy in json file
+	// Checks if ingredient typed is a dairy in json file
 	// if so, it can be added into inventory
 	var numOfDairies = ingredientsData.ingredients[0]['dairies'].length;
 	for (var i = 0; i < numOfDairies; i++) {
@@ -70,11 +70,11 @@ exports.addIngredient = function(req, res){
 			console.log(inventoryData);
 			inventoryData.ingredients[0]['dairies'].push(newIngredient);
 			console.log(inventoryData.ingredients[0]['dairies']);
-			break;
+			return;
 		}
 	};
 	
-	// Checks ingredient typed is a condiment in json file
+	// Checks if ingredient typed is a condiment in json file
 	// if so, it can be added into inventory
 	var numOfCondiments = ingredientsData.ingredients[0]['condiments'].length;
 	for (var i = 0; i < numOfCondiments; i++) {
@@ -87,8 +87,9 @@ exports.addIngredient = function(req, res){
 			console.log(inventoryData);
 			inventoryData.ingredients[0]['condiments'].push(newIngredient);
 			console.log(inventoryData.ingredients[0]['condiments']);
-			break;
+			return;
 		}
 	};
 
+	console.log("testing to see if it returned");
 };
