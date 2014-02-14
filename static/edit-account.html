@@ -27,17 +27,17 @@
     </div>
   </div>
   <div class="w-form form-wrapper text-body">
-    <form name="email-form" data-name="Email Form" data-redirect="../home-profile.html" method="get">
-      <label for="name">Name:</label>
-      <input class="w-input" type="text" placeholder="Enter your name" name="name" data-name="Name" required="required"></input>
-      <label for="email">Email Address:</label>
-      <input class="w-input" type="email" placeholder="Enter your email address" name="email" data-name="Email" required="required"></input>
-      <label>Username:</label>
-      <input class="w-input" type="text" placeholder="Enter your username" name="field" required="required"></input>
-      <label>Password:</label>
-      <input class="w-input" type="password" placeholder="Enter your desired password" name="field" required="required"></input>
-      <label>Reenter Password:</label>
-      <input class="w-input" type="password" placeholder="Reconfirm your password" name="field" required="required"></input>
+    <form name="email-form" data-name="Email Form" data-redirect="../account.html" method="get">
+      <label>Current Password:</label>
+      <input class="w-input" type="password" placeholder="Enter your current password" name="field" required="required"></input>
+      <label for="email">New Email Address:</label>
+      <input class="w-input" type="email" placeholder="Enter new email address" name="email" data-name="Email"></input>
+      <label>New Username:</label>
+      <input class="w-input" type="text" placeholder="Enter new username" name="field"></input>
+      <label>New Password:</label>
+      <input class="w-input" type="password" placeholder="Enter your desired password" name="field"></input>
+      <label>Reenter New Password:</label>
+      <input class="w-input" type="password" placeholder="Reconfirm your password" name="field"></input>
       <input class="w-button round-button submit-button" type="submit" value="Submit" data-wait="Please wait..."></input>
     </form>
     <div class="w-form-done">
@@ -48,7 +48,7 @@
     </div>
   </div>
   <div class="w-form">
-    <form class="bottom-button" name="email-form" data-name="Email Form" data-redirect="../index.html">
+    <form class="bottom-button" name="email-form" data-name="Email Form" data-redirect="../account.html">
       <input class="w-button button-bottom cancel-button round-button" type="submit" value="Go Back" data-wait="Please wait..."></input>
     </form>
     <div class="w-form-done">
