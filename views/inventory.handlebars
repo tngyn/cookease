@@ -44,7 +44,8 @@
         <a class="w-inline-block camera-picture-div-block" href="camera-placeholder.html">
           <img src="images/icon_30126.png" class='camera-icon-placement'>
         </a>
-        <input class="w-input search-item-box" type="text" placeholder="Search for item" name="formsearch"></input>
+        <input class="typeahead search-item-container" type="text" placeholder="Find an item to add" name="formsearch"></input>
+        <input type="submit" style="visibility: hidden;"/>
       </form>
       <div class="w-form-done">
         <p>Sorry! Search functionality not working yet!</p>
@@ -54,24 +55,9 @@
       </div>
     </div>
   </div>
-<!--   <div class="w-container">
-      <ol class="w-list-unstyled">
-      <li class="list-item-block"><a class="button" href="inventory-category.html">Grains</a>
-      </li>
-      <li class="list-item-block"><a class="button" href="#">Produce</a>
-      </li>
-      <li class="list-item-block"><a class="button" href="#">Meats</a>
-      </li>
-      <li class="list-item-block"><a class="button" href="#">Dairy</a>
-      </li>
-      <li class="list-item-block"><a class="button" href="#">Condiments &amp; Sauces</a>
-      </li>
-      <li class="list-item-block"><a class="button" href="#">Sweets</a>
-      </li>
-    </ol>
-  </div> -->
-    {{#each ingredients}}
-    <div class="panel-group" id="accordion">
+
+  {{#each ingredients}}
+  <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -162,8 +148,8 @@
           <div class="panel-body">3</div>
         </div>
       </div> -->
-    </div>
-    {{/each}}
+  </div>
+  {{/each}}
 
     <input class="typeahead"></input>
 
