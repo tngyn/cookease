@@ -32,7 +32,8 @@
         {"tag": "barbeque"}
       ],
       "category": ["meats", "dinner"],
-      "time": 210
+      "time": 210,
+      "recipage": "/recipe1.html"
     },
     {
       "name": "Herbed Chicken Nuggets",
@@ -68,7 +69,8 @@
     		{"tag": "herb"}
   		],
     	"category": ["meats", "lunch", "snacks/appetizers"],
-    	"time": 45
+    	"time": 45,
+      "recipage": "#"
     },
     {
       "name": "Summer Chicken Burgers",
@@ -104,7 +106,8 @@
     		{"tag": "hamburgers"}
    		],
       "category": ["lunch", "dinner", "meats"],
-      "time": 30
+      "time": 30,
+      "recipage": "#"
     },
     {
       "name": "Asian Beef Skewers",
@@ -135,7 +138,8 @@
         {"tag": "beef"}
       ],
       "category": ["dinner", "lunch", "meats"],
-      "time": 40
+      "time": 40,
+      "recipage": "#"
     }
 	]
 }

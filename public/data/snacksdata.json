@@ -30,7 +30,8 @@
         {"tag": "salad"}
       ],
       "category": ["snacks/appetizers", "vegetables", "lunch"],
-      "time": 120
+      "time": 120,
+      "recipage": "#"
     },
     {
       "name": "Salt and Pepper Skillet Fries",
@@ -54,7 +55,8 @@
         {"tag": "skillet"}
       ],
       "category": ["snacks/appetizers"],
-      "time": 30
+      "time": 30,
+      "recipage": "#"
     },
     {
       "name": "Bacon and Tomato Cups",
@@ -83,7 +85,8 @@
         {"tag": "cheese"}
       ],
       "category": ["snacks/appetizers"],
-      "time": 42
+      "time": 42,
+      "recipage": "#"
     }
   ]
 }

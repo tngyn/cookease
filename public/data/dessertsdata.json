@@ -33,7 +33,8 @@
         {"tag": "red velvet"}
       ],
       "category": ["desserts"],
-      "time": 50
+      "time": 50,
+      "recipage": "#"
     },
     {
       "name": "Buttermilk Chocolate Chip Cookies",
@@ -60,7 +61,8 @@
         {"tag": "buttermilk"}
       ],
       "category": ["desserts"],
-      "time": 45
+      "time": 45,
+      "recipage": "#"
     }
   ]
 }
