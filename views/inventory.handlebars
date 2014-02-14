@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Sun Feb 09 2014 17:55:11 GMT+0000 (UTC) -->
+<html data-wf-site="52ef5fc4ef830eb46b00022c">
+<head>
+  <meta charset="utf-8">
+  <title>Cook Ease - Inventory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="css/typeahead-test.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+
+  <link href="css/inventory-dropdown.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/cook-easetest.webflow.css">
+  
+  
+  
+  <script>
+    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+  </script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+  <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+</head>
+<body>
+  <div class="w-nav nav-bar-block" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+    <div class="w-container navbar-container">
+      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navbar-on-link" href="inventory">Inventory</a><a class="w-nav-link" href="meal.html">Meal Categories</a><a class="w-nav-link" href="account.html">Account</a><a class="w-nav-link" href="log-out.html">Log Out</a>
+      </nav>
+      <div class="w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+      <div class="header-without-back-buttons">
+        <h3>Inventory</h3>
+      </div>
+    </div>
+  </div>
+  <div class="w-container navbar-empty-space"></div>
+  <div class="w-container search-item-container">
+    <div class="w-form">
+      <form class="w-clearfix form-for-search-box" name="wf-form-search" data-name="Search" method="get" action="/inventory_added">
+        <a class="w-inline-block camera-picture-div-block" href="camera-placeholder.html">
+          <img src="images/icon_30126.png" class='camera-icon-placement'>
+        </a>
+        <input class="typeahead search-item-box" type="text" placeholder="Find an item to add" name="formsearch"></input>
+        <input type="submit" style="visibility: hidden; position: fixed;"/>
+      </form>
+      <div class="w-form-done">
+        <p>Sorry! Search functionality not working yet!</p>
+      </div>
+      <div class="w-form-fail failed-search-result">
+        <p>Unable to find item.</p>
+      </div>
+    </div>
+  </div>
+
+  {{#each ingredients}}
+  <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Grains</button>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each grains}}
+            <div>
+              {{grain}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Produce</button>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each produces}}
+            <div>
+              {{produce}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Meats</button>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each meats}}
+            <div>
+              {{meat}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Dairy</button>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each dairies}}
+            <div>
+              {{dairy}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Condiments &amp; Sauces</button>
+          </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each condiments}}
+            <div>
+              {{condiment}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <!-- <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Sweets<span>
+          </h4>
+        </div>
+        <div id="collapseSix" class="panel-collapse collapse">
+          <div class="panel-body">3</div>
+        </div>
+      </div> -->
+  </div>
+  {{/each}}
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <script src="js/typeahead.bundle.js"></script>
+  <script src="js/typeahead-inventory.js"></script>
+
+</body>
+</html>

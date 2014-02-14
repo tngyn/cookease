@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Wed Feb 12 2014 21:13:20 GMT+0000 (UTC) -->
+<!-- Last Published: Mon Feb 10 2014 07:07:20 GMT+0000 (UTC) -->
 <html data-wf-site="52ef5fc4ef830eb46b00022c">
 <head>
   <meta charset="utf-8">
-  <title>cook-easeTest - Recipe</title>
+  <title>Cook Ease - Desserts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -14,15 +14,16 @@
   </script>
   <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+  <!--[if IE 8]><script>document.documentElement.className += ' w-ie8';</script><![endif]-->
 </head>
 <body>
   <div class="w-nav nav-bar-block" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
     <div class="w-container navbar-container">
-      <a class="w-inline-block back-button" href="meats">
+      <a class="w-inline-block back-button" href="meal.html">
         <img src="images/icon_26915.png" width="20" alt="52f43d7da560b0da71000490_icon_26915.png">
       </a>
       <div class="w-clearfix header-with-back-button">
-        <h3>Recipe</h3>
+        <h3>Desserts</h3>
       </div>
       <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navbar-on-link" href="inventory.html">Inventory</a><a class="w-nav-link" href="meal.html">Meal Categories</a><a class="w-nav-link" href="account.html">Account</a><a class="w-nav-link" href="log-out.html">Log Out</a>
       </nav>
@@ -33,50 +34,47 @@
   </div>
   <div class="w-container navbar-empty-space"></div>
   <div class="w-container">
-    <h1 class="recipe-title">BBQ Steak</h1>
-  </div>
-  <div class="w-container text-body">
-    <img class="recipe-image" src="images/steak.jpg" alt="52fb12b9ab79897851000348_steak.jpg">
-  </div>
-  <div class="w-container text-body">
-    <h4>Ingredients</h4>
-    <ul class="recipe-ingredients">
-      <li>
-        <div>1 small onion, chopped</div>
-      </li>
-      <li>
-        <div>7 cloves garlic</div>
-      </li>
-      <li>
-        <div>1/2 cup olive oil</div>
-      </li>
-      <li>
-        <div>1/2 cup vinegar</div>
-      </li>
-      <li>
-        <div>1/2 cup soy sauce</div>
-      </li>
-      <li>
-        <div>2 tablespoons chopped fresh rosemary</div>
-      </li>
-      <li>
-        <div>2 tablespoons Dijon-style prepared mustard</div>
-      </li>
-      <li>
-        <div>2 teaspoons salt</div>
-      </li>
-      <li>
-        <div>1 teaspoon black pepper</div>
-      </li>
-      <li>
-        <div>2 pounds tri-tip steak</div>
-      </li>
-    </ul>
-    <h4>Directions</h4>
-    <div class="recipe-step">Step 1: &nbsp;Place onion, garlic, olive oil, vinegar, soy sauce, rosemary, mustard, salt, and pepper into the bowl of a food processor. Process until smooth. Place steak in a large resealable plastic bag. Pour marinade over steaks, seal, and refrigerate
-      for about 3 hours.</div>
-    <div class="recipe-step">Step 2:&nbsp;Preheat the grill for high heat.</div>
-    <div class="recipe-step">Step 3:&nbsp;Brush grill grate with oil. Discard marinade, and place steak on the prepared grill. Cook for 7 minutes per side, or to desired doneness.</div><a class="button small-button" href="favorite.html">Add to Favorites</a>
+    <div class="w-slider" data-animation="slide" data-duration="500" data-infinite="1">
+      <div class="w-slider-mask mask-box">
+        
+        {{#each desserts}}
+        <div class="w-slide slide-box">
+          <h3 class="slider-headings">{{name}}</h3>
+          <a class="w-inline-block slider-image-link-box" href="recipe1.html">
+            <img src="{{image}}" height="300">
+          </a>
+          <div>
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;</p>
+              </li>
+              <li>
+                <div>Time</div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="slider-ingredients-heading">Ingredients</h4>
+          </div>
+          <ul class="list-of-ingredients-slider">
+            {{#each ingredients}}
+            <li>
+              <div>{{ingredient}}</div>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/each}}
+
+      </div>
+      <div class="w-slider-arrow-left">
+        <div class="w-icon-slider-left"></div>
+      </div>
+      <div class="w-slider-arrow-right">
+        <div class="w-icon-slider-right"></div>
+      </div>
+      <div class="w-slider-nav w-round slider-nav-bg"></div>
+    </div>
   </div>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>

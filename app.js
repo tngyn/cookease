@@ -6,7 +6,18 @@ var PORT = 3000;
 var express = require('express');
 
 ////////////
-var handlebars = require('express3-handlebars')
+
+var http = require('http');
+var path = require('path');
+
+var handlebars = require('express3-handlebars');
+
+var inventory_added = require('./routes/inventory_added');
+var inventory = require('./routes/inventory');
+var meats = require('./routes/meats');
+var vegetables = require('./routes/vegetables');
+var snacks = require('./routes/snacks');
+var desserts = require('./routes/desserts');
 ////////////
 
 // Create the server instance
@@ -15,12 +26,43 @@ var app = express();
 // Print logs to the console and compress pages we send
 
 ///////////
+app.set('port', process.env.PORT || 3000);
+app.set('views', path.join(__dirname, 'views'));
 app.engine('handlebars', handlebars());
 app.set('view engine', 'handlebars');
+app.use(express.favicon());
+app.use(express.logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded());
+app.use(express.methodOverride());
+app.use(express.cookieParser('Intro HCI secret key'));
+app.use(express.session());
+app.use(app.router);
+app.use(express.static(path.join(__dirname, 'public')));
 ////////////
 
-app.use(express.logger());
-app.use(express.compress());
+// app.use(express.logger());
+// app.use(express.compress());
+
+
+
+//////////////////////
+// development only
+if ('development' == app.get('env')) {
+  app.use(express.errorHandler());
+}
+
+// Add routes here
+app.get('/inventory_added', inventory_added.addIngredient);
+app.get('/inventory', inventory.view);
+app.get('/meats', meats.view);
+app.get('/vegetables', vegetables.view);
+app.get('/snacks', snacks.view);
+app.get('/desserts', desserts.view);
+
+///////////////////////
+
+
 
 // Return all pages in the /static directory
 // whenever they are requested at '/'
