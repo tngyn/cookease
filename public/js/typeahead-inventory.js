@@ -15,6 +15,7 @@ $(document).ready(function() {
 	    { grain: 'pasta' },
 	    { grain: 'whole wheat bread' },
 	    { grain: 'rolls'},
+	    { grain: 'bagel'},
 	    { grain: 'cereal' }
 	  ]
 	});
@@ -37,6 +38,7 @@ $(document).ready(function() {
 	    { produce: 'strawberries'},
 	    { produce: 'black beans'},
 	    { produce: 'kale'},
+	    { produce: 'cucumber'},
 	    { produce: 'cabbage'}
 	  ]
 	});
@@ -48,6 +50,9 @@ $(document).ready(function() {
 	    { meat: 'tri-tip beef'},
 	    { meat: 'chicken breasts'},
 	    { meat: 'salmon'},
+	    { meat: 'catfish'},
+	    { meat: 'turkey'},
+	    { meat: 'ham'},
 	    { meat: 'halibut'}
 	  ]
 	});
@@ -72,6 +77,7 @@ $(document).ready(function() {
 	    { condiment: 'sriracha sauce'},
 	    { condiment: 'soy sauce'},
 	    { condiment: 'vegetable oil'},
+	    { condiment: 'barbeque sauce'},
 	    { condiment: 'lemon juice'}
 	  ]
 	});
