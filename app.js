@@ -11,6 +11,7 @@ var http = require('http');
 var path = require('path');
 
 var handlebars = require('express3-handlebars');
+var mongoose = require('mongoose');
 
 var inventory_added = require('./routes/inventory_added');
 var inventory = require('./routes/inventory');
@@ -19,6 +20,13 @@ var vegetables = require('./routes/vegetables');
 var snacks = require('./routes/snacks');
 var desserts = require('./routes/desserts');
 ////////////
+
+///////////
+var local_database_name = 'cookease';
+var local_database_uri  = 'mongodb://localhost/' + local_database_name
+var database_uri = process.env.MONGOLAB_URI || local_database_uri
+mongoose.connect(database_uri);
+///////////
 
 // Create the server instance
 var app = express();
