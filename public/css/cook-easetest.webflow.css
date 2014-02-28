@@ -300,7 +300,8 @@ p {
   }
   .back-button {
     margin-top: 5.5%;
-    padding-right: 2%;
+    padding-right: 5%;
+    padding-left: 2%;
     float: left;
   }
   .header-with-back-button {
