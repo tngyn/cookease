@@ -108,6 +108,7 @@ p {
     border-radius: 12px;
     background-color: #f60;
     color: white;
+    outline: none;
   }
   .submit {
     display: block;
@@ -328,6 +329,7 @@ p {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px;
     opacity: 1;
     text-align: center;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
   .slide-box {
     height: auto;

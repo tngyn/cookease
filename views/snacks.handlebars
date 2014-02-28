@@ -25,7 +25,7 @@
       <div class="w-clearfix header-with-back-button">
         <h3>Snacks</h3>
       </div>
-      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navbar-on-link" href="inventory.html">Inventory</a><a class="w-nav-link" href="meal.html">Meal Categories</a><a class="w-nav-link" href="account.html">Account</a><a class="w-nav-link" href="log-out.html">Log Out</a>
+      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navbar-on-link" href="inventory">Inventory</a><a class="w-nav-link" href="meal.html">Meal Categories</a><a class="w-nav-link" href="account.html">Account</a><a class="w-nav-link" href="log-out.html">Log Out</a>
       </nav>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -40,16 +40,16 @@
         {{#each snacks}}
         <div class="w-slide slide-box">
           <h3 class="slider-headings">{{name}}</h3>
-          <a class="w-inline-block slider-image-link-box" href="recipe1.html">
+          <a class="w-inline-block slider-image-link-box" href="{{recipage}}">
             <img src="{{image}}" height="300">
           </a>
           <div>
             <ul>
               <li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;</p>
+                <p>Meal description: lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;</p>
               </li>
               <li>
-                <div>Time</div>
+                <div>Time required to prepare: {{time}} mins.</div>
               </li>
             </ul>
           </div>
@@ -63,6 +63,9 @@
             </li>
             {{/each}}
           </ul>
+          <div>
+            <a class="small-button button" href="{{recipage}}">Go to recipe</a>
+          </div>
         </div>
         {{/each}}
 

@@ -2,7 +2,7 @@
   "desserts": [
     {
       "name": "Red Velvet Cupcakes",
-      "image": "images/cupcake.jpg",
+      "image": "http://www.tattooedmartha.com/wp-content/uploads/2013/12/Tattooed-Martha-Red-Green-Velvet-Cupcakes-with-Peppermint-Swirl-Frosting-6-1024x682.jpg",
       "alt": "Red Velvet Cupcakes image",
       "ingredients": [
         {"ingredient": "butter"},
@@ -33,11 +33,12 @@
         {"tag": "red velvet"}
       ],
       "category": ["desserts"],
-      "time": 50
+      "time": 50,
+      "recipage": "#"
     },
     {
       "name": "Buttermilk Chocolate Chip Cookies",
-      "image": "images/cookie.jpg",
+      "image": "http://cookiedoughandovenmitt.com/wp-content/uploads/2014/01/chocchipcookie3.png",
       "alt": "Buttermilk Chocolate Chip Cookies image",
       "ingredients": [
         {"ingredient": "butter"},
@@ -60,7 +61,8 @@
         {"tag": "buttermilk"}
       ],
       "category": ["desserts"],
-      "time": 45
+      "time": 45,
+      "recipage": "#"
     }
   ]
 }

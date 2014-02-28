@@ -82,13 +82,27 @@ $(document).ready(function() {
 	  ]
 	});
 
+	// var noresults = new Bloodhound({
+	//   datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.noresult); },
+	//   queryTokenizer: Bloodhound.tokenizers.whitespace,
+	//   local: [
+	//   	{ noresult: 'hoisin sauce'},
+	//     { noresult: 'sriracha sauce'},
+	//     { noresult: 'soy sauce'},
+	//     { noresult: 'vegetable oil'},
+	//     { noresult: 'barbeque sauce'},
+	//     { noresult: 'lemon juice'}
+	//   ]
+	// });
+
 	// initialize the bloodhound suggestion engine
 	grains.initialize();
 	produces.initialize();
 	meats.initialize();
 	dairies.initialize();
 	condiments.initialize();
-	 
+	// noresults.initialize();
+
 	// instantiate the typeahead UI
 	$('.typeahead').typeahead({
 		highlight:true
@@ -104,8 +118,7 @@ $(document).ready(function() {
 		displayKey: 'produce',
 		source: produces.ttAdapter(),
 		templates: {
-	    	header: '<h4 class="inventory-category-search-ac">Produce</h4>'
-	  	}
+	    	header: '<h4 class="inventory-category-search-ac">Produce</h4>'	  	}
 	},
 	{
 		displayKey: 'meat',
@@ -128,7 +141,12 @@ $(document).ready(function() {
 			header: '<h4 class="inventory-category-search-ac">Condiments</h4>'
 		}
 	}
+	// {
+	// 	displayKey: 'noresult',
+	// 	source: noresults.ttAdapter(),
+	// 	templates: {
+	// 		empty: "No results found."
+	// 	}
+	// }
 	);
-
-
 });

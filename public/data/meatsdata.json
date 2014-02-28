@@ -32,7 +32,8 @@
         {"tag": "barbeque"}
       ],
       "category": ["meats", "dinner"],
-      "time": 210
+      "time": 210,
+      "recipage": "/recipe1.html"
     },
     {
       "name": "Herbed Chicken Nuggets",
@@ -68,11 +69,12 @@
     		{"tag": "herb"}
   		],
     	"category": ["meats", "lunch", "snacks/appetizers"],
-    	"time": 45
+    	"time": 45,
+      "recipage": "#"
     },
     {
       "name": "Summer Chicken Burgers",
-      "image": "images/burger.jpg",
+      "image": "http://farm5.staticflickr.com/4093/4761031229_5e16a96eee_o.jpg",
       "alt": "Summer Chicken Burgers image",
       "ingredients": [
       	{"ingredient": "avocado"},
@@ -104,11 +106,12 @@
     		{"tag": "hamburgers"}
    		],
       "category": ["lunch", "dinner", "meats"],
-      "time": 30
+      "time": 30,
+      "recipage": "#"
     },
     {
       "name": "Asian Beef Skewers",
-  		"image": "images/beef_skewers",
+  		"image": "http://www.sippitysup.com/wp-content/uploads/2014/02/SteakFritesStick2-858x572.jpg",
   		"alt": "Asian Beef Skewers",
   		"ingredients": [
      		{"ingredient": "hoisin sauce"},
@@ -135,7 +138,8 @@
         {"tag": "beef"}
       ],
       "category": ["dinner", "lunch", "meats"],
-      "time": 40
+      "time": 40,
+      "recipage": "#"
     }
 	]
 }

@@ -35,11 +35,12 @@
         {"tag": "salad"}
       ],
       "category": ["vegetables", "lunch"],
-      "time": 15
+      "time": 15,
+      "recipage": "#"
     },
     {
       "name": "Southern Potato Salad",
-      "image": "images/potato_salad.jpg",
+      "image": "http://salu-salo.com/wp-content/uploads/2013/11/Best-Homemade-Potato-Salad.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
         {"ingredient": "potato"},
@@ -67,7 +68,8 @@
         {"tag": "salad"}
       ],
       "category": ["snacks/appetizers", "vegetables", "lunch"],
-      "time": 120
+      "time": 120,
+      "recipage": "#"
     }
   ]
 }
