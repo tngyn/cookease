@@ -4,19 +4,34 @@ $(document).ready(function() {
 	var grains = new Bloodhound({
 	  datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.grain); },
 	  queryTokenizer: Bloodhound.tokenizers.whitespace,
-	  local: [
-	    { grain: 'oatmeal' },
-	    { grain: 'white rice' },
-	    { grain: 'spaghetti' },
-	    { grain: 'macaroni' },
-	    { grain: 'tortillas' },
-	    { grain: 'brown rice' },
-	    { grain: 'noodles' },
-	    { grain: 'pasta' },
-	    { grain: 'whole wheat bread' },
-	    { grain: 'rolls'},
-	    { grain: 'bagel'},
-	    { grain: 'cereal' }
+	  // prefetch: '../data/inventory/grains.json'
+	  // remote: {
+	  // 	url: '../data/inventory/grains.json',
+	  // 	filter: function(data) {
+	  // 		var returnArray = new Array();
+	  // 		for (var i = 0; i < 12; i++ ) {
+	  // 			returnArray.push(data[i]);
+	  // 		}
+	  // 		return returnArray;
+	  // 	}
+	  // }
+	  local:
+	  [
+	    { grain: 'Oatmeal' },
+	    { grain: 'White Rice' },
+	    { grain: 'Spaghetti' },
+	    { grain: 'Macaroni' },
+	    { grain: 'Tortillas' },
+	    { grain: 'Brown Rice' },
+	    { grain: 'Pasta' },
+	    { grain: 'Whole Wheat Bread' },
+	    { grain: 'Rolls'},
+	    { grain: 'White Bread'},
+	    { grain: 'Hamburger Buns'},
+	    { grain: 'Egg Noodles'},
+	    { grain: 'Whole Wheat Pasta'},
+	    { grain: 'Bagel'},
+	    { grain: 'Cereal' }
 	  ]
 	});
 
@@ -24,22 +39,94 @@ $(document).ready(function() {
 	  datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.produce); },
 	  queryTokenizer: Bloodhound.tokenizers.whitespace,
 	  local: [
-	    { produce: 'tomato'},
-	    { produce: 'garlic'},
-	    { produce: 'celery'},
-	    { produce: 'spinach'},
-	    { produce: 'avocado'},
-	    { produce: 'onion'},
-	    { produce: 'garlic'},
-	    { produce: 'dried cranberries'},
-	    { produce: 'lettuce'},
-	    { produce: 'potato'},
-	    { produce: 'broccoli'},
-	    { produce: 'strawberries'},
-	    { produce: 'black beans'},
-	    { produce: 'kale'},
-	    { produce: 'cucumber'},
-	    { produce: 'cabbage'}
+	    { produce: 'Tomato'},
+	    { produce: 'Kombu'},
+	    { produce: 'Lima Beans'},
+	    { produce: 'Lupini Beans'},
+	    { produce: 'Mung Beans'},
+	    { produce: 'Pinto Beans'},
+	    { produce: 'Red Lentils'},
+	    { produce: 'Split Peas'},
+	    { produce: 'Apricots'},
+	    { produce: 'Blackberries'},
+	    { produce: 'Grapefruit'},
+	    { produce: 'Grapes'},
+	    { produce: 'Lemons'},
+	    { produce: 'Mangoes'},
+	    { produce: 'Melons'},
+	    { produce: 'Nectarines'},
+	    { produce: 'Papayas'},
+	    { produce: 'Pears'},
+	    { produce: 'Pineapples'},
+	    { produce: 'Pomegranates'},
+	    { produce: 'Raspberries'},
+	    { produce: 'Almonds'},
+	    { produce: 'Brazil Nuts'},
+	    { produce: 'Cashews'},
+	    { produce: 'Chestnuts'},
+	    { produce: 'Flax Seeds'},
+	    { produce: 'Hazelnuts '},
+	    { produce: 'Hemp Seeds'},
+	    { produce: 'Macadamia Nuts'},
+	    { produce: 'Peanuts'},
+	    { produce: 'Pecans'},
+	    { produce: 'Pine Nuts'},
+	    { produce: 'Pistachios'},
+	    { produce: 'Sesame Seeds'},
+	    { produce: 'Sunflower Seeds'},
+	    { produce: 'Walnuts'},
+	    { produce: 'Olives'},
+	    { produce: 'Bok Choy'},
+	    { produce: 'Arugula'},
+	    { produce: 'Collards'},
+	    { produce: 'Pumpkins'},
+	    { produce: 'Adzuki Beans'},
+	    { produce: 'Anasazi Beans'},
+	    { produce: 'Black Turtle Beans'},
+	    { produce: 'Black-Eyed Peas'},
+	    { produce: 'Cannellini Beans'},
+	    { produce: 'Garbanzo Beans (Chickpeas)'},
+	    { produce: 'Flageolet Beans'},
+	    { produce: 'Great Northern Beans'},
+	    { produce: 'Green Lentils'},
+	    { produce: 'Kidney Beans'},
+	    { produce: 'Artichokes'},
+	    { produce: 'Asparagus'},
+	    { produce: 'Beets'},
+	    { produce: 'Cauliflower'},
+	    { produce: 'Brussels sprouts'},
+	    { produce: 'Chile peppers'},
+	    { produce: 'Eggplant'},
+	    { produce: 'Mushrooms'},
+	    { produce: 'Peas'},
+	    { produce: 'Radishes'},
+	    { produce: 'Rhubarb'},
+	    { produce: 'Sweet Potatoes'},
+	    { produce: 'Bok Choy'},
+	    { produce: 'Celery'},
+	    { produce: 'Spinach'},
+	    { produce: 'Avocado'},
+	    { produce: 'Bell Peppers'},
+	    { produce: 'Onion'},
+	    { produce: 'Garlic'},
+	    { produce: 'Lettuce'},
+	    { produce: 'Potato'},
+	    { produce: 'Broccoli'},
+	    { produce: 'Strawberries'},
+	    { produce: 'Black Beans'},
+	    { produce: 'Kale'},
+	    { produce: 'Corn'},
+	    { produce: 'Apples'},
+	    { produce: 'Oranges'},
+	    { produce: 'Banana'},
+	    { produce: 'Cherries'},
+	    { produce: 'Plums'},
+	    { produce: 'Peaches'},
+	    { produce: 'Carrots'},
+	    { produce: 'Blueberries'},
+	    { produce: 'Banana'},
+	    { produce: 'Cucumber'},
+	    { produce: 'Cabbage'}
 	  ]
 	});
 
@@ -47,13 +134,20 @@ $(document).ready(function() {
 	  datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.meat); },
 	  queryTokenizer: Bloodhound.tokenizers.whitespace,
 	  local: [
-	    { meat: 'tri-tip beef'},
-	    { meat: 'chicken breasts'},
-	    { meat: 'salmon'},
-	    { meat: 'catfish'},
-	    { meat: 'turkey'},
-	    { meat: 'ham'},
-	    { meat: 'halibut'}
+	    { meat: 'Beef'},
+	    { meat: 'Chicken Breasts'},
+	    { meat: 'Salmon'},
+	    { meat: 'Catfish'},
+	    { meat: 'Turkey'},
+	    { meat: 'Pork'},
+	    { meat: 'Veal'},
+	    { meat: 'Lamb'},
+	    { meat: 'Cod'},
+	    { meat: 'Tuna'},
+	    { meat: 'Tilapia'},
+	    { meat: 'Chilean Seabass'},
+	    { meat: 'Crab'},
+	    { meat: 'Halibut'}
 	  ]
 	});
 
@@ -61,11 +155,13 @@ $(document).ready(function() {
 	  datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.dairy); },
 	  queryTokenizer: Bloodhound.tokenizers.whitespace,
 	  local: [
-	    { dairy: 'milk'},
-	    { dairy: 'yogurt'},
-	    { dairy: 'provolone cheese'},
-	    { dairy: 'eggs'},
-	    { dairy: 'butter'}
+	    { dairy: 'Milk'},
+	    { dairy: 'Yogurt'},
+	    { dairy: 'Sour Cream'},
+	    { dairy: 'Cream Cheese'},
+	    { dairy: 'Cheese'},
+	    { dairy: 'Eggs'},
+	    { dairy: 'Butter'}
 	  ]
 	});
 
@@ -73,12 +169,30 @@ $(document).ready(function() {
 	  datumTokenizer: function(d) { return Bloodhound.tokenizers.whitespace(d.condiment); },
 	  queryTokenizer: Bloodhound.tokenizers.whitespace,
 	  local: [
-	    { condiment: 'hoisin sauce'},
-	    { condiment: 'sriracha sauce'},
-	    { condiment: 'soy sauce'},
-	    { condiment: 'vegetable oil'},
-	    { condiment: 'barbeque sauce'},
-	    { condiment: 'lemon juice'}
+	    { condiment: 'Hoisin Sauce'},
+	    { condiment: 'Mustard'},
+	    { condiment: 'Sugar'},
+	    { condiment: 'Salt'},
+	    { condiment: 'Black Pepper'},
+	    { condiment: 'Ketchup'},
+	    { condiment: 'Mayonnaise'},
+	    { condiment: 'Vinegar'},
+	    { condiment: 'Cinnamon'},
+	    { condiment: 'Wasabi'},
+	    { condiment: 'Cinnamon'},
+	    { condiment: 'Tobasco'},
+	    { condiment: 'Ranch Dressing'},
+	    { condiment: 'Horseradish'},
+	    { condiment: 'Hummus'},
+	    { condiment: 'Fish Sauce'},
+	    { condiment: 'Tartar Sauce'},
+	    { condiment: 'Steak Sauce'},
+	    { condiment: 'Sriracha Sauce'},
+	    { condiment: 'Soy Sauce'},
+	    { condiment: 'Vegetable Oil'},
+	    { condiment: 'Barbeque Sauce'},
+	    { condiment: 'BBQ Sauce'},
+	    { condiment: 'Lemon Juice'}
 	  ]
 	});
 
@@ -149,4 +263,4 @@ $(document).ready(function() {
 	// 	}
 	// }
 	);
-});
+}).focus();
