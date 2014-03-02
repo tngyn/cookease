@@ -5,7 +5,7 @@
       "image": "http://cdn.lifesambrosia.com/blog/wp-content/uploads/grilled-balsamic-and-rosemary-flat-iron-steak-1200x795.jpg",
       "alt": "BBQ Steak image",
       "ingredients": [
-        {"ingredient": "onion"},
+        {"ingredient": "onions"},
         {"ingredient": "garlic"},
         {"ingredient": "olive oil"},
         {"ingredient": "vinegar"},
@@ -17,7 +17,7 @@
         {"ingredient": "tri-tip steak"}
       ],
       "tags": [
-        {"tag": "onion"},
+        {"tag": "onions"},
         {"tag": "garlic"},
         {"tag": "olive oil"},
         {"tag": "vinegar"},
