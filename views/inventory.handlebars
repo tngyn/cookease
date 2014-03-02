@@ -23,6 +23,23 @@
   </script>
   <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+
+  <!-- Google Analytics Content Experiment code -->
+  <script>function utmx_section(){}function utmx(){}(function(){var
+  k='82812289-0',d=document,l=d.location,c=d.cookie;
+  if(l.search.indexOf('utm_expid='+k)>0)return;
+  function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+  indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+  length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+  '<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+  '://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+  '&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+  valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+  '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+  </script><script>utmx('url','A/B');</script>
+  <!-- End of Google Analytics Content Experiment code -->
+
+  
 </head>
 <body>
   <div class="w-nav nav-bar-block" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
@@ -56,6 +73,92 @@
     </div>
   </div>
 
+  {{#if showAll}}
+  {{#each ingredients}}
+  <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseOne">Grains</button>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            {{#each grains}}
+            <div>
+              {{grain}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseTwo">Produce</button>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse in">
+          <div class="panel-body">
+            {{#each produces}}
+            <div>
+              {{produce}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseThree">Meats</button>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse in">
+          <div class="panel-body">
+            {{#each meats}}
+            <div>
+              {{meat}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseFour">Dairy</button>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse in">
+          <div class="panel-body">
+            {{#each dairies}}
+            <div>
+              {{dairy}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseFive">Condiments &amp; Sauces</button>
+          </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse in">
+          <div class="panel-body">
+            {{#each condiments}}
+            <div>
+              {{condiment}}
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+  </div>
+  {{/each}}
+  {{else}}
   {{#each ingredients}}
   <div class="panel-group" id="accordion">
       <div class="panel panel-default">
@@ -138,24 +241,25 @@
           </div>
         </div>
       </div>
-      <!-- <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <span class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Sweets<span>
-          </h4>
-        </div>
-        <div id="collapseSix" class="panel-collapse collapse">
-          <div class="panel-body">3</div>
-        </div>
-      </div> -->
   </div>
   {{/each}}
+  {{/if}}
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <script src="js/typeahead.bundle.js"></script>
   <script src="js/typeahead-inventory.js"></script>
+  <script src="js/inventoryGA.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-48536526-1', 'cook-ease.herokuapp.com');
+    // ga('create', 'UA-48536526-1', { 'cookieDomain': 'none' });
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
