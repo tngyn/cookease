@@ -36,7 +36,8 @@
       ],
       "category": ["vegetables", "lunch"],
       "time": 15,
-      "recipage": "#"
+      "recipage": "#",
+	  "description": "This spinach salad is adorned with blue cheese, avocado, and cranberries, then drizzled with a raspberry walnut vinaigrette."
     },
     {
       "name": "Southern Potato Salad",
@@ -69,7 +70,8 @@
       ],
       "category": ["snacks/appetizers", "vegetables", "lunch"],
       "time": 120,
-      "recipage": "#"
+      "recipage": "#",
+	  "description": "This warm potato salad is a classic, with mayonnaise, sweet pickle, garlic, mustard, bits of celery, and diced hard boiled eggs."
     }
   ]
 }

@@ -31,7 +31,8 @@
       ],
       "category": ["snacks/appetizers", "vegetables", "lunch"],
       "time": 120,
-      "recipage": "#"
+      "recipage": "#",
+	  "description": "This warm potato salad is a classic, with mayonnaise, sweet pickle, garlic, mustard, bits of celery, and diced hard boiled eggs."
     },
     {
       "name": "Salt and Pepper Skillet Fries",
@@ -56,7 +57,8 @@
       ],
       "category": ["snacks/appetizers"],
       "time": 30,
-      "recipage": "#"
+      "recipage": "/fries.html",
+	  "description": "Salt and pepper skillet fries are a quick and easy way to prepare French fries and are sure to please everyone around you."
     },
     {
       "name": "Bacon and Tomato Cups",
@@ -86,7 +88,8 @@
       ],
       "category": ["snacks/appetizers"],
       "time": 42,
-      "recipage": "#"
+      "recipage": "#",
+	  "description": "Little buttermilk biscuit cups are baked with a savory mixture of bacon and tomato inside."
     }
   ]
 }

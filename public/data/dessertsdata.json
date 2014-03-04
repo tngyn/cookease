@@ -34,7 +34,8 @@
       ],
       "category": ["desserts"],
       "time": 50,
-      "recipage": "#"
+      "recipage": "#",
+	  "description" : "This mini version of the classic Red Velvet Cake is one of the more popular offerings in bakeries all across the country."
     },
     {
       "name": "Buttermilk Chocolate Chip Cookies",
@@ -62,7 +63,8 @@
       ],
       "category": ["desserts"],
       "time": 45,
-      "recipage": "#"
+      "recipage": "#",
+	  "description": "These soft, cake-like cookies are sweet twist on the old chocolate chip cookie."
     }
   ]
 }
