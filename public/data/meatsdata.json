@@ -33,7 +33,8 @@
       ],
       "category": ["meats", "dinner"],
       "time": 210,
-      "recipage": "/recipe1.html"
+      "recipage": "/recipe1.html",
+	  "description": "BBQ Steak is delicious"
     },
     {
       "name": "Herbed Chicken Nuggets",
@@ -70,7 +71,8 @@
   		],
     	"category": ["meats", "lunch", "snacks/appetizers"],
     	"time": 45,
-      "recipage": "#"
+      "recipage": "/herbed_chicken.html",
+	  "description": "Herbed Chicken nuggets"
     },
     {
       "name": "Summer Chicken Burgers",
@@ -107,7 +109,8 @@
    		],
       "category": ["lunch", "dinner", "meats"],
       "time": 30,
-      "recipage": "#"
+      "recipage": "#",
+	  "description": "chicken burgers"
     },
     {
       "name": "Asian Beef Skewers",
@@ -139,7 +142,8 @@
       ],
       "category": ["dinner", "lunch", "meats"],
       "time": 40,
-      "recipage": "#"
+      "recipage": "#",
+	  "description": "asian beef"
     }
 	]
 }
