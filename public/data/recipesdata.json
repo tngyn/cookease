@@ -5,7 +5,7 @@
       "image": "images/steak.jpg",
       "alt": "BBQ Steak image",
       "ingredients": [
-        {"ingredient": "onion"},
+        {"ingredient": "onions"},
         {"ingredient": "garlic"},
         {"ingredient": "olive oil"},
         {"ingredient": "vinegar"},
@@ -75,13 +75,13 @@
       "image": "images/salad.jpg",
       "alt": "Harvest Salad image",
       "ingredients": [
-        {"ingredient": "walnut"},
+        {"ingredient": "walnuts"},
         {"ingredient": "spinach"},
         {"ingredient": "dried cranberries"},
         {"ingredient": "blue cheese"},
         {"ingredient": "tomato"},
         {"ingredient": "avocado"},
-        {"ingredient": "red onion"},
+        {"ingredient": "red onions"},
         {"ingredient": "raspberry jam"},
         {"ingredient": "red wine vinegar"},
         {"ingredient": "walnut oil"},
@@ -112,7 +112,7 @@
       "image": "images/potato_salad.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
-        {"ingredient": "potato"},
+        {"ingredient": "potatoes"},
         {"ingredient": "eggs"},
         {"ingredient": "celery"},
         {"ingredient": "sweet relish"},
@@ -170,7 +170,7 @@
       "ingredients": [
         {"ingredient": "bacon"},
         {"ingredient": "tomato"},
-        {"ingredient": "onion"},
+        {"ingredient": "onions"},
         {"ingredient": "swiss cheese"},
         {"ingredient": "mayonnaise"},
         {"ingredient": "basil"},
@@ -179,7 +179,7 @@
       "tags": [
         {"tag": "bacon"},
         {"tag": "tomato"},
-        {"tag": "onion"},
+        {"tag": "onions"},
         {"tag": "swiss cheese"},
         {"tag": "mayonnaise"},
         {"tag": "basil"},
@@ -198,15 +198,15 @@
       "alt": "Red Velvet Cupcakes image",
       "ingredients": [
         {"ingredient": "butter"},
-        {"ingredient": "white sugar"},
+        {"ingredient": "sugar"},
         {"ingredient": "eggs"},
         {"ingredient": "buttermilk"}, 
         {"ingredient": "red food coloring"},
         {"ingredient": "vanilla extract"},
         {"ingredient": "baking soda"},
         {"ingredient": "white vinegar"},
-        {"ingredient": "all-purpose flour"},
-        {"ingredient": "unsweetened cocoa powder"},
+        {"ingredient": "flour"},
+        {"ingredient": "cocoa powder"},
         {"ingredient": "salt"}
       ],
       "tags": [
@@ -237,7 +237,7 @@
         {"ingredient": "eggs"},
         {"ingredient": "buttermilk baking mix"},
         {"ingredient": "walnuts"},
-        {"ingredient": "semisweet chocolate chips"}
+        {"ingredient": "chocolate chips"}
       ],
       "tags": [
         {"tag": "butter"},
@@ -259,14 +259,14 @@
       "image": "images/french_toast.jpg",
       "alt": "Fluffy French Toast image",
       "ingredients": [
-        {"ingredient": "all-purpose flour"},
+        {"ingredient": "flour"},
         {"ingredient": "milk"},
         {"ingredient": "salt"},
         {"ingredient": "eggs"},
         {"ingredient": "cinnamon"},
         {"ingredient": "vanilla extract"},
-        {"ingredient": "white sugar"},
-        {"ingredient": "bread"}
+        {"ingredient": "sugar"},
+        {"ingredient": "white bread"}
       ],
       "tags": [
         {"tag": "all-purpose flour"},
@@ -360,7 +360,7 @@
         {"ingredient": "rice vinegar"},
         {"ingredient": "soy sauce"},
         {"ingredient": "sesame oil"},
-        {"ingredient": "chili sauce"},
+        {"ingredient": "Sriracha Sauce"},
         {"ingredient": "green onions"},
         {"ingredient": "sesame seeds"}
       ],
@@ -422,14 +422,13 @@
       "alt": "Asian Beef Skewers",
       "ingredients": [
         {"ingredient": "hoisin sauce"},
-        {"ingredient": "sherry"},
+        {"ingredient": "sherry wine"},
         {"ingredient": "soy sauce"},
         {"ingredient": "barbeque sauce"},
         {"ingredient": "green onions"},
         {"ingredient": "garlic"},
         {"ingredient": "ginger"},
-        {"ingredient": "flank steak"},
-        {"ingredient": "skewers"}
+        {"ingredient": "flank steak"}
       ],
       "tags": [
         {"tag": "hoisin sauce"},

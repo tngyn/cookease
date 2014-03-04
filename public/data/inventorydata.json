@@ -2,19 +2,14 @@
     "ingredients": [
         {
             "grains": [
-                {"grain": "oatmeal"}
             ],
             "produces": [
-                {"produce": "tomato"}
             ],
             "meats": [
-                {"meat": "tri-tip beef"}
             ],
             "dairies": [
-                {"dairy": "milk"}
             ],
             "condiments": [
-                {"condiment": "barbeque sauce"}
             ]
         }
 	]
