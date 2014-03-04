@@ -34,7 +34,7 @@
       "category": ["meats", "dinner"],
       "time": 210,
       "recipage": "/recipe1.html",
-	  "description": "BBQ Steak is delicious"
+	  "description": "Tender, juice steak with delicious BBQ marinade."
     },
     {
       "name": "Herbed Chicken Nuggets",
@@ -72,7 +72,7 @@
     	"category": ["meats", "lunch", "snacks/appetizers"],
     	"time": 45,
       "recipage": "/herbed_chicken.html",
-	  "description": "Herbed Chicken nuggets"
+	  "description": "Tasty chicken nuggets seasoned with slightly nutty flavor from wheat germ.  Great dish for even the pickiest of eaters!"
     },
     {
       "name": "Summer Chicken Burgers",
@@ -110,7 +110,7 @@
       "category": ["lunch", "dinner", "meats"],
       "time": 30,
       "recipage": "#",
-	  "description": "chicken burgers"
+	  "description": "Juicy chicken burger made with avocados, lemon juice and more.  A nice break from typical hamburgers and much healthier for you."
     },
     {
       "name": "Asian Beef Skewers",
@@ -143,7 +143,7 @@
       "category": ["dinner", "lunch", "meats"],
       "time": 40,
       "recipage": "#",
-	  "description": "asian beef"
+	  "description": "Strips of flank steak  marinated overnight in a flavorful mixture of hoisin sauce, soy sauce, ginger, sherry, barbeque sauce, green onions and garlic."
     }
 	]
 }
