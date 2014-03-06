@@ -426,13 +426,15 @@ p {
     src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
 }
 
-h1 {
+#main_title {
 font-family: myFont, Helvetica, generic;
-font-size: 120px;
+font-size: 100px;
 padding-top: 100px;
+text-align: center;
 }
 
-h3 {
+#page_title {
 font-family: myFont, Helvetica, generic;
-font-size: 50px;
+font-size: 30px;
+color: white;
 }
