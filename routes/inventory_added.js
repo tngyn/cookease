@@ -13,7 +13,6 @@ exports.addIngredient = function(req, res){
 		if(ingredientsData.ingredients[0]['grains'][i].grain == ingredientTyped) {
 			var newIngredient = {
 				"grain" : ingredientTyped,
-				"id": i
 			};
 
 			console.log(newIngredient);
@@ -22,7 +21,7 @@ exports.addIngredient = function(req, res){
 			console.log(inventoryData.ingredients[0]['grains']);
 			return;
 		}
-	}
+	};
 
 	// Checks if ingredient typed is a produce in json file
 	// if so, it can be added into inventory
@@ -31,7 +30,6 @@ exports.addIngredient = function(req, res){
 		if(ingredientsData.ingredients[0]['produces'][i].produce == ingredientTyped) {
 			var newIngredient = {
 				"produce" : ingredientTyped,
-				"id": i
 			};
 
 			console.log(newIngredient);
@@ -40,7 +38,7 @@ exports.addIngredient = function(req, res){
 			console.log(inventoryData.ingredients[0]['produces']);
 			return;
 		}
-	}
+	};
 
 	// Checks if ingredient typed is a meat in json file
 	// if so, it can be added into inventory
@@ -49,7 +47,6 @@ exports.addIngredient = function(req, res){
 		if(ingredientsData.ingredients[0]['meats'][i].meat == ingredientTyped) {
 			var newIngredient = {
 				"meat" : ingredientTyped,
-				"id": i
 			};
 
 			console.log(newIngredient);
@@ -67,7 +64,6 @@ exports.addIngredient = function(req, res){
 		if(ingredientsData.ingredients[0]['dairies'][i].dairy == ingredientTyped) {
 			var newIngredient = {
 				"dairy" : ingredientTyped,
-				"id": i
 			};
 
 			console.log(newIngredient);
@@ -85,7 +81,6 @@ exports.addIngredient = function(req, res){
 		if(ingredientsData.ingredients[0]['condiments'][i].condiment == ingredientTyped) {
 			var newIngredient = {
 				"condiment" : ingredientTyped,
-				"id" : i
 			};
 
 			console.log(newIngredient);

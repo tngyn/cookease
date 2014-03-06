@@ -67,7 +67,9 @@ app.get('/meats', meats.view);
 app.get('/vegetables', vegetables.view);
 app.get('/snacks', snacks.view);
 app.get('/desserts', desserts.view);
-app.get('/inventory_show_all', inventory.viewAll)
+app.get('/inventory_show_all', inventory.viewAll);
+
+app.post('/inventory/delete', inventory.deleteItem);
 
 ///////////////////////
 

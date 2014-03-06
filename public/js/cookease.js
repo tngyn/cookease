@@ -19,18 +19,21 @@ function updateLike(e) {
 }
 
 function getConfirmation(e) {
-	var itemID = $(this).closest('.inventory-listings').attr('id');
 	var itemName = $(this).parent().find('.item').text();
-	console.log(itemID);
 	console.log(itemName);
+
+	var json = {
+		"item": itemName,
+	};
 
 	var retVal = confirm("Are you sure you want to delete " + itemName + "?");
 	if( retVal == true ){
-		// $.getJSON("../public/data/inventorydata.json", function(data) {
-		// 	console.log(data);
-		// });
+		$.post('/inventory/delete', json, function() {
+			window.location.href = '/inventory';
+		});
 		return true;
-   	}else{
+   	}
+   	else {
    		return false;
    	}
 }
