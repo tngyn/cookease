@@ -429,15 +429,16 @@ p {
 
 #main_title {
 font-family: myFont, Helvetica, generic;
-font-size: 100px;
-padding-top: 100px;
+font-size: 60px;
+padding-top: 50px;
 text-align: center;
 }
 
-#page_title {
+.page_title {
 font-family: myFont, Helvetica, generic;
 font-size: 30px;
 color: white;
+/*padding-top: 10px;*/
 }
 
 .button-for-delete {
