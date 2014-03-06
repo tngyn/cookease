@@ -209,7 +209,7 @@ $(document).ready(function() {
 	    { condiment: 'Rosemary'},
 	    { condiment: 'Bisquick'},
 	    { condiment: 'Walnut Oil'},
-	    { condiment: 'Rasberry Jam'},
+	    { condiment: 'Raspberry Jam'},
 	    { condiment: 'Red Wine Vinegar'},
 	    { condiment: 'Basil'},
 	    { condiment: 'Wheat Germ'},
