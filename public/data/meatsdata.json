@@ -2,7 +2,7 @@
 	"meats": [
 		{
       "name": "BBQ Steak",
-      "image": "http://cdn.lifesambrosia.com/blog/wp-content/uploads/grilled-balsamic-and-rosemary-flat-iron-steak-1200x795.jpg",
+      "image": "images/beef2.jpg",
       "alt": "BBQ Steak image",
       "ingredients": [
         {"ingredient": "onions"},
@@ -33,7 +33,8 @@
       ],
       "category": ["meats", "dinner"],
       "time": 210,
-      "recipage": "/recipe1.html"
+      "recipage": "/recipe1.html",
+	  "description": "Tender, juice steak with delicious BBQ marinade."
     },
     {
       "name": "Herbed Chicken Nuggets",
@@ -70,11 +71,12 @@
   		],
     	"category": ["meats", "lunch", "snacks/appetizers"],
     	"time": 45,
-      "recipage": "#"
+      "recipage": "/herbed_chicken.html",
+	  "description": "Tasty chicken nuggets seasoned with slightly nutty flavor from wheat germ.  Great dish for even the pickiest of eaters!"
     },
     {
       "name": "Summer Chicken Burgers",
-      "image": "http://farm5.staticflickr.com/4093/4761031229_5e16a96eee_o.jpg",
+      "image": "images/chickenburger.jpg",
       "alt": "Summer Chicken Burgers image",
       "ingredients": [
       	{"ingredient": "avocado"},
@@ -107,11 +109,12 @@
    		],
       "category": ["lunch", "dinner", "meats"],
       "time": 30,
-      "recipage": "#"
+      "recipage": "/chicken_burger.html",
+	  "description": "Juicy chicken burger made with avocados, lemon juice and more.  A nice break from typical hamburgers and much healthier for you."
     },
     {
       "name": "Asian Beef Skewers",
-  		"image": "http://www.sippitysup.com/wp-content/uploads/2014/02/SteakFritesStick2-858x572.jpg",
+  		"image": "images/beefskewers2.jpg",
   		"alt": "Asian Beef Skewers",
   		"ingredients": [
      		{"ingredient": "hoisin sauce"},
@@ -139,7 +142,8 @@
       ],
       "category": ["dinner", "lunch", "meats"],
       "time": 40,
-      "recipage": "#"
+      "recipage": "/beef.html",
+	  "description": "Strips of flank steak  marinated overnight in a flavorful mixture of hoisin sauce, soy sauce, ginger, sherry, barbeque sauce, green onions and garlic."
     }
 	]
 }

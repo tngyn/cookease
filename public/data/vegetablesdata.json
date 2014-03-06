@@ -36,11 +36,12 @@
       ],
       "category": ["vegetables", "lunch"],
       "time": 15,
-      "recipage": "#"
+      "recipage": "/salad.html",
+	  "description": "This spinach salad is adorned with blue cheese, avocado, and cranberries, then drizzled with a raspberry walnut vinaigrette."
     },
     {
       "name": "Southern Potato Salad",
-      "image": "http://salu-salo.com/wp-content/uploads/2013/11/Best-Homemade-Potato-Salad.jpg",
+      "image": "images/potato.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
         {"ingredient": "potato"},
@@ -69,7 +70,8 @@
       ],
       "category": ["snacks/appetizers", "vegetables", "lunch"],
       "time": 120,
-      "recipage": "#"
+      "recipage": "/potato.html",
+	  "description": "This warm potato salad is a classic, with mayonnaise, sweet pickle, garlic, mustard, bits of celery, and diced hard boiled eggs."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "desserts": [
     {
       "name": "Red Velvet Cupcakes",
-      "image": "http://www.tattooedmartha.com/wp-content/uploads/2013/12/Tattooed-Martha-Red-Green-Velvet-Cupcakes-with-Peppermint-Swirl-Frosting-6-1024x682.jpg",
+      "image": "images/redcupcake.jpg",
       "alt": "Red Velvet Cupcakes image",
       "ingredients": [
         {"ingredient": "butter"},
@@ -34,11 +34,12 @@
       ],
       "category": ["desserts"],
       "time": 50,
-      "recipage": "#"
+      "recipage": "/cupcake.html",
+	  "description" : "This mini version of the classic Red Velvet Cake is one of the more popular offerings in bakeries all across the country."
     },
     {
       "name": "Buttermilk Chocolate Chip Cookies",
-      "image": "http://cookiedoughandovenmitt.com/wp-content/uploads/2014/01/chocchipcookie3.png",
+      "image": "images/cookieyum.jpg",
       "alt": "Buttermilk Chocolate Chip Cookies image",
       "ingredients": [
         {"ingredient": "butter"},
@@ -62,7 +63,8 @@
       ],
       "category": ["desserts"],
       "time": 45,
-      "recipage": "#"
+      "recipage": "/cookie.html",
+	  "description": "These soft, cake-like cookies are sweet twist on the old chocolate chip cookie."
     }
   ]
 }
