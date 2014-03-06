@@ -2,7 +2,7 @@
   "snacks": [
     {
       "name": "Southern Potato Salad",
-      "image": "http://salu-salo.com/wp-content/uploads/2013/11/Best-Homemade-Potato-Salad.jpg",
+      "image": "images/potato.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
         {"ingredient": "potato"},
@@ -31,12 +31,12 @@
       ],
       "category": ["snacks/appetizers", "vegetables", "lunch"],
       "time": 120,
-      "recipage": "#",
+      "recipage": "/potatosnack.html",
 	  "description": "This warm potato salad is a classic, with mayonnaise, sweet pickle, garlic, mustard, bits of celery, and diced hard boiled eggs."
     },
     {
       "name": "Salt and Pepper Skillet Fries",
-      "image": "http://bbqlikeitshot.com/wp-content/uploads/2014/02/beersoakedfries_2808-1024x682.jpg",
+      "image": "images/fries.jpg",
       "alt": "Salt and Pepper Skillet Fries image",
       "ingredients": [
         {"ingredient": "olive oil"},
@@ -62,7 +62,7 @@
     },
     {
       "name": "Bacon and Tomato Cups",
-      "image": "http://media-cache-ak0.pinimg.com/736x/9d/6e/b2/9d6eb25421d822ede5de013267f9dda0.jpg",
+      "image": "images/cups.jpg",
       "alt": "Bacon and Tomato Cups image",
       "ingredients": [
         {"ingredient": "bacon"},
@@ -88,7 +88,7 @@
       ],
       "category": ["snacks/appetizers"],
       "time": 42,
-      "recipage": "#",
+      "recipage": "cups.html",
 	  "description": "Little buttermilk biscuit cups are baked with a savory mixture of bacon and tomato inside."
     }
   ]
