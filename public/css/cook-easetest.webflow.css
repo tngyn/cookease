@@ -367,7 +367,7 @@ p {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border: 2px solid #f80;
+
     border-radius: 5px;
   }
   .recipe-step {
@@ -420,3 +420,19 @@ p {
   .navbar-link {
     background-color: #ffb066;
   }
+  
+  @font-face {
+    font-family: myFont;
+    src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
+}
+
+h1 {
+font-family: myFont, Helvetica, generic;
+font-size: 120px;
+padding-top: 100px;
+}
+
+h3 {
+font-family: myFont, Helvetica, generic;
+font-size: 50px;
+}
