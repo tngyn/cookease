@@ -1,5 +1,3 @@
-//var deletedIngredient = require('../data/inventorydata.json');
-
 $(document).ready(function() {
 	initializePage();
 });
@@ -12,7 +10,7 @@ function initializePage() {
 	$(".button-for-inventory").click(updateLike);
 
 	// confirmation for delete dialog box
-	// $('.button-for-delete').click(getConfirmation);
+	$('.button-for-delete').click(getConfirmation);
 }
 
 // Google analytics send
@@ -20,13 +18,18 @@ function updateLike(e) {
 	ga("send", "event", "collapse", "click");
 }
 
+function getConfirmation(e) {
+	var itemID = $(this).closest('.inventory-listings').attr('id');
+	console.log(itemID);
 
-// function getConfirmation(e){
-// 	var retVal = confirm("Are you sure you want to delete?");
-// 	if( retVal == true ){
-		
-// 		return true;
-//    	}else{
-//    		return false;
-//    	}
-// }
+	var retVal = confirm("Are you sure you want to delete?");
+	if( retVal == true ){
+		// $.getJSON("../public/data/inventorydata.json", function(data) {
+		// 	console.log(data);
+		// });
+		return true;
+   	}else{
+   		return false;
+   	}
+}
+

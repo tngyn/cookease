@@ -12,7 +12,8 @@ exports.addIngredient = function(req, res){
 	for (var i = 0; i < numOfGrains; i++) {
 		if(ingredientsData.ingredients[0]['grains'][i].grain == ingredientTyped) {
 			var newIngredient = {
-				"grain" : ingredientTyped
+				"grain" : ingredientTyped,
+				"id": i
 			};
 
 			console.log(newIngredient);
@@ -29,7 +30,8 @@ exports.addIngredient = function(req, res){
 	for (var i = 0; i < numOfProduces; i++) {
 		if(ingredientsData.ingredients[0]['produces'][i].produce == ingredientTyped) {
 			var newIngredient = {
-				"produce" : ingredientTyped
+				"produce" : ingredientTyped,
+				"id": i
 			};
 
 			console.log(newIngredient);
@@ -46,7 +48,8 @@ exports.addIngredient = function(req, res){
 	for (var i = 0; i < numOfMeats; i++) {
 		if(ingredientsData.ingredients[0]['meats'][i].meat == ingredientTyped) {
 			var newIngredient = {
-				"meat" : ingredientTyped
+				"meat" : ingredientTyped,
+				"id": i
 			};
 
 			console.log(newIngredient);
@@ -63,7 +66,8 @@ exports.addIngredient = function(req, res){
 	for (var i = 0; i < numOfDairies; i++) {
 		if(ingredientsData.ingredients[0]['dairies'][i].dairy == ingredientTyped) {
 			var newIngredient = {
-				"dairy" : ingredientTyped
+				"dairy" : ingredientTyped,
+				"id": i
 			};
 
 			console.log(newIngredient);
@@ -80,7 +84,8 @@ exports.addIngredient = function(req, res){
 	for (var i = 0; i < numOfCondiments; i++) {
 		if(ingredientsData.ingredients[0]['condiments'][i].condiment == ingredientTyped) {
 			var newIngredient = {
-				"condiment" : ingredientTyped
+				"condiment" : ingredientTyped,
+				"id" : i
 			};
 
 			console.log(newIngredient);
