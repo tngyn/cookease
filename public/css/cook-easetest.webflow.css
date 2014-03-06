@@ -413,3 +413,10 @@ p {
     background-color: transparent;
     text-align: left;
   }
+  .button-for-delete {
+    position: absolute;
+    right: 5%;
+  }
+  .inventory-listings {
+    margin-bottom: 15px;
+  }
