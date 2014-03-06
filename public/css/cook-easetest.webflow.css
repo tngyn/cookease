@@ -108,7 +108,6 @@ p {
     border-radius: 12px;
     background-color: #f60;
     color: white;
-    outline: none;
   }
   .submit {
     display: block;
@@ -330,7 +329,6 @@ p {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px;
     opacity: 1;
     text-align: center;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   }
   .slide-box {
     height: auto;
@@ -369,7 +367,6 @@ p {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border: 2px solid #f80;
     border-radius: 5px;
   }
   .recipe-step {
@@ -420,3 +417,28 @@ p {
   .inventory-listings {
     margin-bottom: 15px;
   }
+  .navbar-button {
+    background-color: #f80;
+  }
+  .navbar-button.w--open {
+    background-color: #f80;
+  }
+  .navbar-link {
+    background-color: #ffb066;
+  }
+  
+  @font-face {
+    font-family: myFont;
+    src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
+}
+
+h1 {
+font-family: myFont, Helvetica, generic;
+font-size: 120px;
+padding-top: 100px;
+}
+
+h3 {
+font-family: myFont, Helvetica, generic;
+font-size: 50px;
+}

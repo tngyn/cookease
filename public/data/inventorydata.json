@@ -2,14 +2,30 @@
     "ingredients": [
         {
             "grains": [
+                { "grain": "Brown Rice" },
+                { "grain": "Linguine Pasta" },
+                { "grain": "Whole Wheat Bread" }
             ],
             "produces": [
+                { "produce": "Banana"},
+                { "produce": "Cucumber"},
+                { "produce": "Cabbage"}
             ],
             "meats": [
+                { "meat": "Beef"},
+                { "meat": "Bacon"},
+                { "meat": "Flank Steak"},
+                { "meat": "Tri-Tip Steak"}
             ],
             "dairies": [
+                { "dairy": "Cheese"},
+                { "dairy": "Eggs"},
+                { "dairy": "Butter"}
             ],
             "condiments": [
+                { "condiment": "Barbeque Sauce"},
+                { "condiment": "BBQ Sauce"},
+                { "condiment": "Lemon Juice"}
             ]
         }
 	]
