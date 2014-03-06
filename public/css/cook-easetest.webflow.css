@@ -453,4 +453,6 @@ color: white;
   .inventory-listings {
     margin-bottom: 15px;
   }
-
+body{
+  background-color: #FFFFDB;
+}
