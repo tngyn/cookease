@@ -303,13 +303,13 @@ p {
     text-align: center;
   }
   .back-button {
-    margin-top: 5.5%;
+    margin-top: 5%;
     padding-right: 5%;
     padding-left: 2%;
     float: left;
   }
   .header-with-back-button {
-    margin-top: 4.5%;
+    margin-top: 5%;
     margin-left: 0%;
     padding-left: 0%;
     float: left;
@@ -472,4 +472,9 @@ body{
   @font-face {
     font-family: myFont;
     src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
+}
+
+.glyphicon-chevron-left {
+  font-size: 20px;
+  color: white;
 }
