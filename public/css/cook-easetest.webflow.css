@@ -1,5 +1,10 @@
+@font-face {
+    font-family: basicFont;
+    src: url("./ChampagneLimousinesBold.ttf") /* TTF file for CSS3 browsers */
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: basicFont, Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
@@ -367,7 +372,6 @@ p {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 5px;
   }
   .recipe-step {
     padding-bottom: 26px;
@@ -410,13 +414,48 @@ p {
     background-color: transparent;
     text-align: left;
   }
-  .button-for-delete {
+
+.navbar-button {
+    background-color: #f80;
+  }
+  .navbar-button.w--open {
+    background-color: #f80;
+  }
+  .navbar-link {
+    background-color: #ffb066;
+  }
+  
+  @font-face {
+    font-family: myFont;
+    src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
+}
+
+#main_title {
+font-family: myFont, Helvetica, generic;
+font-size: 60px;
+padding-top: 50px;
+text-align: center;
+}
+
+.page_title {
+font-family: myFont, Helvetica, generic;
+font-size: 30px;
+color: white;
+/*padding-top: 10px;*/
+}
+
+.button-for-delete {
     position: absolute;
     right: 5%;
   }
   .inventory-listings {
+
     margin-bottom: 40px;
   }
+body{
+  background-color: #FFFFDB;
+}
+
   .navbar-button {
     background-color: #f80;
   }
@@ -432,13 +471,3 @@ p {
     src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
 }
 
-h1 {
-font-family: myFont, Helvetica, generic;
-font-size: 120px;
-padding-top: 100px;
-}
-
-h3 {
-font-family: myFont, Helvetica, generic;
-font-size: 50px;
-}
