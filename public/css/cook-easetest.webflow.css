@@ -159,13 +159,13 @@ p {
     border-color: #868686;
   }
   .navbar-on-link.w--current {
-    background-color: #d4d4d4;
+    background-color: #ffa33b;
     box-shadow: none;
     color: black;
     font-style: normal;
   }
   .navbar-on-link.w--current:focus {
-    background-color: #5c5c5c;
+    background-color: #ffb662;
     color: black;
     list-style-type: none;
   }
