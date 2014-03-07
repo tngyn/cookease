@@ -414,7 +414,7 @@ p {
     background-color: transparent;
     text-align: left;
   }
-<<<<<<< HEAD
+
 .navbar-button {
     background-color: #f80;
   }
@@ -449,15 +449,13 @@ color: white;
     right: 5%;
   }
   .inventory-listings {
-<<<<<<< HEAD
-    margin-bottom: 15px;
+
+    margin-bottom: 40px;
   }
 body{
   background-color: #FFFFDB;
 }
-=======
-    margin-bottom: 40px;
-  }
+
   .navbar-button {
     background-color: #f80;
   }
@@ -473,14 +471,3 @@ body{
     src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
 }
 
-h1 {
-font-family: myFont, Helvetica, generic;
-font-size: 120px;
-padding-top: 100px;
-}
-
-h3 {
-font-family: myFont, Helvetica, generic;
-font-size: 50px;
-}
->>>>>>> master
