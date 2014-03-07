@@ -1,5 +1,10 @@
+@font-face {
+    font-family: basicFont;
+    src: url("./ChampagneLimousinesBold.ttf") /* TTF file for CSS3 browsers */
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: basicFont, Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
@@ -410,14 +415,13 @@ p {
     background-color: transparent;
     text-align: left;
   }
+
   .button-for-delete {
     position: absolute;
     right: 5%;
   }
-  .inventory-listings {
-    margin-bottom: 40px;
-  }
-  .navbar-button {
+
+.navbar-button {
     background-color: #f80;
   }
   .navbar-button.w--open {
@@ -432,14 +436,38 @@ p {
     src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
 }
 
-h1 {
+#main_title {
 font-family: myFont, Helvetica, generic;
-font-size: 120px;
-padding-top: 100px;
+font-size: 60px;
+padding-top: 50px;
+text-align: center;
 }
 
-h3 {
+.page_title {
 font-family: myFont, Helvetica, generic;
-font-size: 50px;
+font-size: 30px;
+color: white;
+/*padding-top: 10px;*/
+}
+  .inventory-listings {
+
+    margin-bottom: 40px;
+  }
+body{
+  background-color: #FFFFDB;
 }
 
+  .navbar-button {
+    background-color: #f80;
+  }
+  .navbar-button.w--open {
+    background-color: #f80;
+  }
+  .navbar-link {
+    background-color: #ffb066;
+  }
+  
+  @font-face {
+    font-family: myFont;
+    src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
+}
