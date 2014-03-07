@@ -1,8 +1,8 @@
 var inventoryData = require('../public/data/inventorydata.json');
 var meatsData = require('../public/data/meatsdata.json');
-var meatsData2 = require('../public/data/meatsdata2.json');
 
 exports.view = function(req, res) {
+
 	//search through meatsData
 	// keep count of ingredients matched
 	// make new array to return
@@ -61,21 +61,23 @@ exports.view = function(req, res) {
 		}
 	}
 
+	var meatsData2 = {
+        "meats": []
+    };
 
     // Loop for each recipe
     for(var i = 0; i < meatsData.meats.length; i++) {
 
     	var numRecipeIngredients = meatsData.meats[i].ingredients.length;
 
-      itemMatchCounter = 0;  // Zero items intially found
+    	itemMatchCounter = 0;  // Zero items intially found
 
-      // Loop for each ingredient
-      for(var j = 0; j < meatsData.meats[i].ingredients.length; j++) {
+    	// Loop for each ingredient
+    	for(var j = 0; j < meatsData.meats[i].ingredients.length; j++) {
 
         // ingredient currently being searched for
         var searchStr = meatsData.meats[i].ingredients[j].ingredient.toLowerCase();
 
-        
 
         // Loop through inventory list
         for(var k = 0; k < ingredientsList.length; k++)
@@ -107,11 +109,24 @@ exports.view = function(req, res) {
             // If recipe hasn't already been added
             if(added == false) {
             	meatsData2.meats.push(meatsData.meats[i]);
+            	console.log(meatsData.meats[i]);
             }
 
         }
 
       }
     }
-	res.render('meats', meatsData2);
+
+    console.log(meatsData2);
+
+    // Checks if there is a recipe to display
+    // If no recipe to display, show empty page
+    if (meatsData2.meats.length == 0) {
+    	meatsData2.showAll = false;
+    	res.render('meats', meatsData2);
+    }
+    else {
+    	meatsData2.showAll = true
+    	res.render('meats', meatsData2);
+    }
 };

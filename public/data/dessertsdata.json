@@ -6,15 +6,15 @@
       "alt": "Red Velvet Cupcakes image",
       "ingredients": [
         {"ingredient": "butter"},
-        {"ingredient": "white sugar"},
+        {"ingredient": "sugar"},
         {"ingredient": "eggs"},
         {"ingredient": "buttermilk"}, 
         {"ingredient": "red food coloring"},
         {"ingredient": "vanilla extract"},
         {"ingredient": "baking soda"},
         {"ingredient": "white vinegar"},
-        {"ingredient": "all-purpose flour"},
-        {"ingredient": "unsweetened cocoa powder"},
+        {"ingredient": "flour"},
+        {"ingredient": "cocoa powder"},
         {"ingredient": "salt"}
       ],
       "tags": [
@@ -47,7 +47,7 @@
         {"ingredient": "eggs"},
         {"ingredient": "buttermilk baking mix"},
         {"ingredient": "walnuts"},
-        {"ingredient": "semisweet chocolate chips"}
+        {"ingredient": "chocolate chips"}
       ],
       "tags": [
         {"tag": "butter"},

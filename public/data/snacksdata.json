@@ -5,7 +5,7 @@
       "image": "images/potato.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
-        {"ingredient": "potato"},
+        {"ingredient": "potatoes"},
         {"ingredient": "eggs"},
         {"ingredient": "celery"},
         {"ingredient": "sweet relish"},
@@ -41,7 +41,7 @@
       "ingredients": [
         {"ingredient": "olive oil"},
         {"ingredient": "butter"},
-        {"ingredient": "potato"},
+        {"ingredient": "potatoes"},
         {"ingredient": "sea salt"},
         {"ingredient": "black pepper"}
       ],
@@ -67,7 +67,7 @@
       "ingredients": [
         {"ingredient": "bacon"},
         {"ingredient": "tomato"},
-        {"ingredient": "onion"},
+        {"ingredient": "onions"},
         {"ingredient": "swiss cheese"},
         {"ingredient": "mayonnaise"},
         {"ingredient": "basil"},

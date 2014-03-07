@@ -124,12 +124,11 @@
     		{"ingredient": "green onions"},
     		{"ingredient": "garlic"},
     		{"ingredient": "ginger"},
-    		{"ingredient": "flank steak"},
-    		{"ingredient": "skewers"}
+    		{"ingredient": "flank steak"}
     	],
       "tags": [
       	{"tag": "hoisin sauce"},
-        {"tag": "sherry"},
+        {"tag": "sherry wine"},
         {"tag": "soy sauce"},
         {"tag": "barbeque sauce"},
         {"tag": "green onions"},

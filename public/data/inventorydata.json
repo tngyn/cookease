@@ -9,10 +9,15 @@
             "produces": [
                 { "produce": "Banana"},
                 { "produce": "Cucumber"},
+                { "produce": "Onions"},
+                { "produce": "Garlic"},
+                { "produce": "Rosemary"},
+                { "produce": "Parsley"},
                 { "produce": "Cabbage"}
             ],
             "meats": [
                 { "meat": "Beef"},
+                { "meat": "Chicken Breasts"},
                 { "meat": "Bacon"},
                 { "meat": "Flank Steak"},
                 { "meat": "Tri-Tip Steak"}
@@ -24,6 +29,18 @@
             ],
             "condiments": [
                 { "condiment": "Barbeque Sauce"},
+                { "condiment": "Soy Sauce"},
+                { "condiment": "Salt"},
+                { "condiment": "Olive Oil"},
+                { "condiment": "Vegetable Oil"},
+                { "condiment": "Vinegar"},
+                { "condiment": "Thyme"},
+                { "condiment": "Wheat Germ"},
+                { "condiment": "Dried Bread Crumbs"},
+                { "condiment": "Red Pepper Flakes"},
+                { "condiment": "Mustard"},
+                { "condiment": "Basil"},
+                { "condiment": "Black Pepper"},
                 { "condiment": "Lemon Juice"}
             ]
         }

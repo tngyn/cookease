@@ -36,6 +36,7 @@
     </div>
   </div>
   <div class="w-container navbar-empty-space"></div>
+  {{#if showAll}}
   <div class="w-container">
     <div class="w-slider" data-animation="slide" data-duration="500" data-infinite="1">
       <div class="w-slider-mask mask-box">
@@ -82,6 +83,9 @@
       <div class="w-slider-nav w-round slider-nav-bg"></div>
     </div>
   </div>
+  {{else}}
+    <p>Add more items to get more recipes!</p>
+  {{/if}}
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <script>
