@@ -473,7 +473,6 @@ body{
     font-family: myFont;
     src: url("./IntriqueScript_PersonalUse.ttf") /* TTF file for CSS3 browsers */
 }
-
 .glyphicon-chevron-left {
   font-size: 20px;
   color: white;
