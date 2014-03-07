@@ -234,7 +234,6 @@ $(document).ready(function() {
 	    { condiment: 'Soy Sauce'},
 	    { condiment: 'Vegetable Oil'},
 	    { condiment: 'Barbeque Sauce'},
-	    { condiment: 'BBQ Sauce'},
 	    { condiment: 'Lemon Juice'}
 	  ]
 	});
