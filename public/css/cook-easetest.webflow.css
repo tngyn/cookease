@@ -156,7 +156,7 @@ p {
     padding-top: 0%;
     border-style: none none solid;
     border-width: 0px 0px 1px;
-    border-color: black;
+    border-color: #868686;
   }
   .navbar-on-link.w--current {
     background-color: #d4d4d4;
@@ -450,13 +450,15 @@ color: white;
 /*padding-top: 10px;*/
 }
   .inventory-listings {
-
-    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid none none;
+    border-width: 1px 0px 0px;
+    border-color: #868686; 
   }
 body{
-  background-color: #FFFFDB;
+  background-color: #E8E8E8;
 }
-
   .navbar-button {
     background-color: #f80;
   }
