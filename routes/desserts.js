@@ -1,4 +1,4 @@
-var inventoryData = require('../public/data/inventoryData.json');
+var inventoryData = require('../public/data/inventorydata.json');
 var dessertsData = require('../public/data/dessertsdata.json');
 
 exports.view = function(req, res) {
