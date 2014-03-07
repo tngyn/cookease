@@ -11,6 +11,9 @@
 }
 .panel-body {
 	background-color: #E8E8E8;
+	border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #a2a2a2;
 }
 .panel-heading {
 	border-style: solid none none;
