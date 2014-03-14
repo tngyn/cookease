@@ -11,6 +11,8 @@ function initializePage() {
 
 	// confirmation for delete dialog box
 	$('.button-for-delete').click(getConfirmation);
+
+	$('.submit-item').submit(addItem);
 }
 
 // Google analytics send
@@ -26,7 +28,7 @@ function getConfirmation(e) {
 		"item": itemName,
 	};
 
-	var retVal = confirm("Are you sure you want to delete " + itemName + "?");
+	var retVal = confirm("Are you sure you want to remove " + itemName + " from your inventory?");
 	if( retVal == true ){
 		$.post('/inventory/delete', json, function() {
 			window.location.href = '/inventory';
@@ -38,3 +40,17 @@ function getConfirmation(e) {
    	}
 }
 
+function addItem(e) {
+	var itemName = $(this).find('input[name="formsearch"]').val();
+	console.log(itemName);
+
+	var json = {
+		"item": itemName,
+	};
+
+	$.post('/inventory/add', json, function() {
+		window.location.href = '/inventory';
+	});
+
+	alert(itemName + " has been added to inventory.");
+}

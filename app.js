@@ -13,7 +13,6 @@ var path = require('path');
 var handlebars = require('express3-handlebars');
 //var mongoose = require('mongoose');
 
-var inventory_added = require('./routes/inventory_added');
 var inventory = require('./routes/inventory');
 var meats = require('./routes/meats');
 var vegetables = require('./routes/vegetables');
@@ -61,14 +60,12 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/inventory_added', inventory_added.addIngredient);
 app.get('/inventory', inventory.view);
 app.get('/meats', meats.view);
 app.get('/vegetables', vegetables.view);
 app.get('/snacks', snacks.view);
 app.get('/desserts', desserts.view);
-app.get('/inventory_show_all', inventory.viewAll);
-// app.post('/inventory/add', inventory.addItem);
+app.post('/inventory/add', inventory.addIngredient);
 app.post('/inventory/delete', inventory.deleteItem);
 
 ///////////////////////

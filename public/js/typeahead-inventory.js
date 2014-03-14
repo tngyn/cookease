@@ -131,7 +131,6 @@ $(document).ready(function() {
 	    { produce: 'Peaches'},
 	    { produce: 'Carrots'},
 	    { produce: 'Blueberries'},
-	    { produce: 'Banana'},
 	    { produce: 'Cucumber'},
 	    { produce: 'Cabbage'}
 	  ]

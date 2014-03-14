@@ -6,6 +6,9 @@
   <meta charset="utf-8">
   <title>Cook Ease - About Us</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/inventory-dropdown.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
   <link rel="stylesheet" type="text/css" href="css/cook-easetest.webflow.css">
@@ -16,11 +19,117 @@
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
 </head>
 <body>
+  <div class="w-nav nav-bar-block" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+    <div class="w-container navbar-container">
+      <a class="w-inline-block back-button" href="/">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <div class="w-clearfix header-with-back-button">
+        <p class ="page_title">About Us</p>
+      </div>
+      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link navbar-on-link" href="/">Login Page</a>
+      </nav>
+      <div class="w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="w-container navbar-empty-space"></div>
+  <div class="w-container">
+
+  </div>
   <div class="w-container text-body">
-    <h1>About</h1>
-    <div>This is our about us page. Ideally this would be some sort of window overlay on the login page.</div><a href="http://thenounproject.com/" target="_blank">Thanks to the NOUNPROJECT for icon pictures</a>
-  </div><a class="about-page-for-login-link" href="index.html">Click here to go back to login page.</a>
+    <div>
+      <h2 class="aboutus">Welcome to Cook Ease!</h2>
+      <p class = "aboutus">This is our class project for Intro to Human-Computer Interaction Design led by Professor Scott Klemmer at UCSD. Please feel free to try our app out!</p>
+    </div>
+  </div>
+
+
+<div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseOne">What does Cook Ease do?</button>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseTwo">Produce</button>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each produces}}
+            <div class="inventory-listings">
+              <span class="item">{{produce}}</span>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseThree">Meats</button>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each meats}}
+            <div class="inventory-listings">
+              <span class="item">{{meat}}</span>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseFour">Dairy</button>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each dairies}}
+            <div class="inventory-listings">
+              <span class="item">{{dairy}}</span>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <button class="button-for-inventory accordion-toggle" data-toggle="collapse" href="#collapseFive">Condiments &amp; Sauces</button>
+          </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+          <div class="panel-body">
+            {{#each condiments}}
+            <div class="inventory-listings">
+              <span class="item">{{condiment}}</span>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
 </body>
 </html>

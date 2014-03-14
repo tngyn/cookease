@@ -137,16 +137,12 @@ p {
     display: block;
     float: none;
   }
-  .footer-link-3-block {
-    position: relative;
-    float: none;
-    text-align: left;
   }
   .footer-link-1-block {
     position: relative;
     display: block;
     float: none;
-    text-align: right;
+    text-align: center;
   }
   .footer-block {
     position: relative;
@@ -476,4 +472,7 @@ body{
 .glyphicon-chevron-left {
   font-size: 20px;
   color: white;
+}
+.aboutus {
+  text-align: center;
 }
