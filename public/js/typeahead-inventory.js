@@ -84,7 +84,7 @@ $(document).ready(function() {
 	    { produce: 'Collards'},
 	    { produce: 'Pumpkins'},
 	    { produce: 'Ginger'},
-	    { produce: 'Green onions'},
+	    { produce: 'Green Onions'},
 	    { produce: 'Dried Cranberries'},
 	    { produce: 'Adzuki Beans'},
 	    { produce: 'Anasazi Beans'},
