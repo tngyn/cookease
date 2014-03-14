@@ -52,5 +52,5 @@ function addItem(e) {
 		window.location.href = '/inventory';
 	});
 
-	alert(itemName + " has been added to inventory.");
+	alert(itemName + " has been added to inventory. We'll refresh the page and update your inventory now!" );
 }
