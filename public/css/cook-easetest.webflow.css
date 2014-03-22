@@ -143,6 +143,7 @@ p {
     display: block;
     float: none;
     text-align: center;
+    margin-bottom: 15px;
   }
   .footer-block {
     position: relative;
@@ -488,4 +489,7 @@ body{
   text-align: center;
   font-size: 20px;
   margin-top: 50px;
+}
+.bottom-footer {
+  margin-bottom: 50px;
 }
