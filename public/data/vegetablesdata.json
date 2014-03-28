@@ -44,7 +44,7 @@
       "image": "images/potato.jpg",
       "alt": "Southern Potato Salad image",
       "ingredients": [
-        {"ingredient": "potato"},
+        {"ingredient": "potatoes"},
         {"ingredient": "eggs"},
         {"ingredient": "celery"},
         {"ingredient": "sweet relish"},
